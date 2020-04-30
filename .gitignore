@@ -106,7 +106,6 @@ dist
 # By Vue CLI
 .DS_Store
 node_modules
-/dist
 
 # local env files
 .env.local
