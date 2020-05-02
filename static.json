@@ -4,5 +4,5 @@
   "routes": {
     "/**": "index.html"
   },
-  "basic_auth": false
+  "basic_auth": "${USE_BASIC_AUTH}"
 }
