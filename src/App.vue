@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>幻水総選挙 2020</v-toolbar-title>
+      <v-toolbar-title>幻水総選挙2020</v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
@@ -19,7 +19,7 @@
 
           <a href="https://election-2019.suikoden.info/" target="_blank">
             <v-list-item>
-              <v-list-item-title>幻水総選挙 2019</v-list-item-title>
+              <v-list-item-title>幻水総選挙2019</v-list-item-title>
             </v-list-item>
           </a>
         </v-list-item-group>
@@ -28,10 +28,10 @@
 
     <div class="d-flex align-center">
       <v-img
-        alt="幻水総選挙 2020 タイトル"
+        alt="幻水総選挙2020 タイトル"
         class="shrink"
         contain
-        src="./assets/gensosenkyo_2020_title.png"
+        src="/gensosenkyo_2020_title.png"
         transition="scale-transition"
       />
     </div>
