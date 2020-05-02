@@ -1,16 +1,16 @@
 <template>
   <div>
-    <StatusTableOfPostedIllustrations />
+    <TableOfPostedIllustrations />
   </div>
 </template>
 
 <script>
-import StatusTableOfPostedIllustrations from "../components/parts/StatusTableOfPostedIllustrations";
+import TableOfPostedIllustrations from "../components/parts/TableOfPostedIllustrations";
 
 export default {
-  name: "StatusTableOfPostedIllustrations",
+  name: "StatusOfPostedIllustrations",
   components: {
-    StatusTableOfPostedIllustrations
+    TableOfPostedIllustrations
   }
 };
 </script>

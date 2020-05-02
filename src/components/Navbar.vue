@@ -23,13 +23,13 @@
             </v-list-item>
           </router-link>
 
-          <!-- <router-link to="/status_of_illustrations"> -->
-          <v-list-item>
-            <v-list-item-title>
-              開票イラスト受付状況（準備中）
-            </v-list-item-title>
-          </v-list-item>
-          <!-- </router-link> -->
+          <router-link to="/status_of_illustrations">
+            <v-list-item>
+              <v-list-item-title>
+                開票イラスト受付状況（準備中）
+              </v-list-item-title>
+            </v-list-item>
+          </router-link>
 
           <a href="https://election-2019.suikoden.info/" target="_blank">
             <v-list-item>
