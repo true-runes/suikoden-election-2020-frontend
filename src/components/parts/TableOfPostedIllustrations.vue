@@ -20,8 +20,6 @@
 
         <br />
 
-        <div>info: {{ info }}</div>
-
         <v-simple-table>
           <template v-slot:default>
             <thead>
@@ -31,9 +29,8 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="item in currentStatusInfo" :key="item.name">
-                <td>{{ item.name }}</td>
-                <td>{{ item.calories }}</td>
+              <tr v-for="item in info" :key="item.id">
+                <td>{{ item.user }}</td>
               </tr>
             </tbody>
           </template>
@@ -54,7 +51,7 @@ export default {
     };
   },
   mounted() {
-    axios.get("https://yesno.wtf/api").then(response => (this.info = response));
+    axios.get("https://qiita.com/api/v2/tags/FileMaker/items?page=1&per_page=20").then(response => (this.info = response));
 
     this.currentStatusInfo = [
       {
