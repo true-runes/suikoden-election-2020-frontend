@@ -4,5 +4,5 @@
 |GitHub Actions|![GitHub Actions Status](https://github.com/true-runes/suikoden-election-2020-frontend/workflows/Suikoden%20Election%202020/badge.svg?branch=master)|![GitHub Actions Status](https://github.com/true-runes/suikoden-election-2020-frontend/workflows/Suikoden%20Election%202020/badge.svg?branch=development)|
 
 # suikoden-election-2020-frontend
-幻水総選挙 2020 フロントエンド
+幻水総選挙2020 フロントエンド
 

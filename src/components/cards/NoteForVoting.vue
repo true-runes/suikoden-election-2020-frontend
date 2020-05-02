@@ -17,7 +17,7 @@
           <span class="title">「坊ちゃん」への投票について</span>
           <ul>
             <li>
-              幻水総選挙 2020では<span class="font-weight-bold"
+              幻水総選挙2020では<span class="font-weight-bold"
                 >「坊ちゃん」は投票対象です</span
               >
             </li>
