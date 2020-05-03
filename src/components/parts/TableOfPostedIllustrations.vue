@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          開票イラスト応募状況（準備中）
+          開票イラスト応募状況
         </p>
 
         <ul>
@@ -13,24 +13,42 @@
 
         <br />
 
-        <div>
-          <v-btn depressed color="primary" class="mr-2">応募状況一覧</v-btn>
-          <v-btn depressed color="primary">満了キャラ一覧</v-btn>
-        </div>
-
-        <br />
+        <!-- <div> -->
+        <!-- <v-btn depressed color="primary" class="mr-2">応募状況一覧</v-btn> -->
+        <!-- <v-btn depressed color="primary">満了キャラ一覧</v-btn> -->
+        <!-- </div> -->
+        <!-- <br /> -->
 
         <v-simple-table>
           <template v-slot:default>
             <thead>
               <tr>
-                <th class="text-left subtitle-1">キャラ名</th>
-                <th class="text-left subtitle-1">応募数</th>
+                <th class="text-left subtitle-1 font-weight-bold">キャラ名</th>
+                <th class="text-left subtitle-1 font-weight-bold">応募数</th>
               </tr>
             </thead>
             <tbody>
-              <tr v-for="item in info" :key="item.id">
-                <td>{{ item.user }}</td>
+              <tr
+                v-for="(numberOfVote,
+                characterName) in postedIllustrationsStatus"
+                :key="characterName"
+              >
+                <td>{{ characterName }}</td>
+                <td>
+                  <div v-if="isEntryClosed(numberOfVote)">
+                    <span
+                      :class="{
+                        'is-entry-closed': true,
+                        'font-weight-bold': true
+                      }"
+                    >
+                      {{ numberOfVoteWithNotion(numberOfVote) }}
+                    </span>
+                  </div>
+                  <div v-else>
+                    {{ numberOfVoteWithNotion(numberOfVote) }}
+                  </div>
+                </td>
               </tr>
             </tbody>
           </template>
@@ -46,57 +64,38 @@ import axios from "axios";
 export default {
   data() {
     return {
-      info: null,
+      postedIllustrationsStatus: null,
       currentStatusInfo: []
-    };
+    }
   },
-  mounted() {
-    axios.get("https://qiita.com/api/v2/tags/FileMaker/items?page=1&per_page=20").then(response => (this.info = response));
-
-    this.currentStatusInfo = [
-      {
-        name: "Frozen Yogurt",
-        calories: 159
-      },
-      {
-        name: "Ice cream sandwich",
-        calories: 237
-      },
-      {
-        name: "Eclair",
-        calories: 262
-      },
-      {
-        name: "Cupcake",
-        calories: 305
-      },
-      {
-        name: "Gingerbread",
-        calories: 356
-      },
-      {
-        name: "Jelly bean",
-        calories: 375
-      },
-      {
-        name: "Lollipop",
-        calories: 392
-      },
-      {
-        name: "Honeycomb",
-        calories: 408
-      },
-      {
-        name: "Donut",
-        calories: 452
-      },
-      {
-        name: "KitKat",
-        calories: 518
+  methods: {
+    // TODO: リファクタリング
+    isEntryClosed: function(numberOfVote) {
+      if (numberOfVote >= 4) {
+        return true;
+      } else {
+        return false;
       }
-    ];
+    },
+    // TODO: リファクタリング
+    numberOfVoteWithNotion: function(numberOfVote) {
+      if (numberOfVote >= 4) {
+        return `${numberOfVote}（終了）`;
+      } else {
+        return numberOfVote;
+      }
+    },
+  },
+  beforeCreate() {
+    axios
+      .get(process.env.VUE_APP_POSTED_ILLUSTRATIONS_STATUS_API)
+      .then(response => (this.postedIllustrationsStatus = response.data));
   }
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.is-entry-closed {
+  color: red;
+}
+</style>

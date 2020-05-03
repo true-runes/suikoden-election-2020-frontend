@@ -26,7 +26,7 @@
           <router-link to="/status_of_illustrations">
             <v-list-item>
               <v-list-item-title>
-                開票イラスト受付状況（準備中）
+                開票イラスト応募状況
               </v-list-item-title>
             </v-list-item>
           </router-link>
