@@ -21,7 +21,7 @@
 
         <div v-if="showLoadingAnime">
           <v-layout justify-center>
-            <img src="../../assets/Preloader_8.gif" />
+            <img src="../../assets/loading_spinner_anime.gif" />
           </v-layout>
         </div>
         <v-simple-table v-else>
