@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SiteAttentions />
     <VotingTerm />
     <ShowResultDate />
     <EnabledVotingCountNumber />
@@ -20,6 +21,7 @@ import NoteForVoting from "../components/parts/NoteForVoting";
 import NoteForThisEvent from "../components/parts/NoteForThisEvent";
 import VotingExample from "../components/parts/VotingExample";
 import AboutIllustrationsCountingOfVotes from "../components/parts/AboutIllustrationsCountingOfVotes";
+import SiteAttentions from "../components/parts/SiteAttentions"
 
 export default {
   name: "Home",
@@ -31,7 +33,8 @@ export default {
     VotingExample,
     NoteForVoting,
     NoteForThisEvent,
-    AboutIllustrationsCountingOfVotes
+    AboutIllustrationsCountingOfVotes,
+    SiteAttentions
   }
 };
 </script>
