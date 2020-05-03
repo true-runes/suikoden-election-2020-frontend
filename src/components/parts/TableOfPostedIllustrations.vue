@@ -19,14 +19,20 @@
         <!-- </div> -->
         <!-- <br /> -->
 
-        <v-simple-table>
-          <template v-slot:default>
+        <div v-if="showLoadingAnime">
+          <v-layout justify-center>
+            <img src="../../assets/Preloader_8.gif" />
+          </v-layout>
+        </div>
+        <v-simple-table v-else>
+          <template>
             <thead>
               <tr>
                 <th class="text-left subtitle-1 font-weight-bold">キャラ名</th>
                 <th class="text-left subtitle-1 font-weight-bold">応募数</th>
               </tr>
             </thead>
+
             <tbody>
               <tr
                 v-for="(numberOfVote,
@@ -65,7 +71,8 @@ export default {
   data() {
     return {
       postedIllustrationsStatus: null,
-      currentStatusInfo: []
+      currentStatusInfo: [],
+      showLoadingAnime: true
     };
   },
   methods: {
@@ -89,7 +96,8 @@ export default {
   beforeCreate() {
     axios
       .get(process.env.VUE_APP_POSTED_ILLUSTRATIONS_STATUS_API)
-      .then(response => (this.postedIllustrationsStatus = response.data));
+      .then(response => (this.postedIllustrationsStatus = response.data))
+      .then(() => (this.showLoadingAnime = false));
   }
 };
 </script>
