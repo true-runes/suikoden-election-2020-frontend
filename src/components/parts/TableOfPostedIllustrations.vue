@@ -66,7 +66,7 @@ export default {
     return {
       postedIllustrationsStatus: null,
       currentStatusInfo: []
-    }
+    };
   },
   methods: {
     // TODO: リファクタリング
@@ -84,7 +84,7 @@ export default {
       } else {
         return numberOfVote;
       }
-    },
+    }
   },
   beforeCreate() {
     axios

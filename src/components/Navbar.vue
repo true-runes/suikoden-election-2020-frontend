@@ -4,7 +4,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
         <router-link to="/" class="white--text">
-          幻水総選挙 2020
+          幻水総選挙2020
         </router-link>
       </v-toolbar-title>
     </v-app-bar>
@@ -49,7 +49,10 @@
             </v-list-item>
           </a>
 
-          <a href="https://corselia.sakura.ne.jp/gensui/sosenkyo_2016_result/index.php" target="_blank">
+          <a
+            href="https://corselia.sakura.ne.jp/gensui/sosenkyo_2016_result/index.php"
+            target="_blank"
+          >
             <v-list-item>
               <v-list-item-title>幻水総選挙 2016（別サイト）</v-list-item-title>
             </v-list-item>
