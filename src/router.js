@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import App from "./App.vue";
-import IllustrationsCountingOfVotes from "./views/IllustrationsCountingOfVotes";
+import Home from "./views/Home";
+import StatusOfPostedIllustrations from "./views/StatusOfPostedIllustrations";
 
 Vue.use(VueRouter);
 Vue.config.productionTip = false;
@@ -11,13 +11,11 @@ export default new VueRouter({
   routes: [
     {
       path: "/",
-      name: "app",
-      component: App
+      component: Home
     },
     {
-      path: "/illustrations_counting_of_votes",
-      name: "illustrations_counting_of_votes",
-      component: IllustrationsCountingOfVotes
+      path: "/status_of_illustrations",
+      component: StatusOfPostedIllustrations
     }
   ]
 });
