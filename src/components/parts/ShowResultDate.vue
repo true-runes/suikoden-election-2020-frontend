@@ -3,10 +3,10 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          開票イラストについて
+          結果発表
         </p>
         <div class="text--primary">
-          （準備中です）
+          2020年6月20日（土）18:00（予定）
         </div>
       </v-col>
     </v-row>

@@ -21,7 +21,7 @@
 
           <br />
 
-          <span class="title">公開アカウント（鍵無し）の場合</span>
+          <span class="title">非公開アカウント（鍵付き）の場合</span>
           <ul>
             <li>
               主催アカウント (<a
@@ -29,14 +29,6 @@
                 target="_blank"
                 >@gensosenkyo</a
               >) へのDMで投票します
-            </li>
-            <li>
-              DMにハッシュタグ「<span class="font-weight-bold"
-                >#幻水総選挙2020</span
-              >」を付けてお送り下さい
-            </li>
-            <li>
-              投票時のみ公開アカウント（鍵無し）にする方法ですと集計上問題が出ることがありますので、DMに統一します
             </li>
           </ul>
         </div>
