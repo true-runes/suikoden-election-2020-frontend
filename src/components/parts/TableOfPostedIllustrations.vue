@@ -21,7 +21,7 @@
 
         <div v-if="showLoadingAnime">
           <v-layout justify-center>
-            <img src="../../assets/Preloader_8.gif" />
+            <img src="../../assets/loading_spinner_anime.gif" />
           </v-layout>
         </div>
         <v-simple-table v-else>
@@ -36,7 +36,9 @@
             <tbody>
               <tr
                 v-for="(numberOfVote,
-                characterName) in postedIllustrationsStatus"
+                characterName) in sortedPostedIllustrationsStatus(
+                  this.postedIllustrationsStatus
+                )"
                 :key="characterName"
               >
                 <td>{{ characterName }}</td>
@@ -91,6 +93,26 @@ export default {
       } else {
         return numberOfVote;
       }
+    },
+    sortedPostedIllustrationsStatus: function(postedIllustrationsStatus) {
+      const chatacterNames = Object.keys(postedIllustrationsStatus);
+      const entriesPostedIllustrationsStatus = Object.entries(
+        postedIllustrationsStatus
+      );
+      const sortedCharacterNames = chatacterNames.sort((x, y) =>
+        x.localeCompare(y, "ja")
+      );
+
+      const sortedPostedIllustrationsStatus = {};
+      sortedCharacterNames.forEach(character => {
+        entriesPostedIllustrationsStatus.forEach(entry => {
+          if (character === entry[0]) {
+            sortedPostedIllustrationsStatus[character] = entry[1];
+          }
+        });
+      });
+
+      return sortedPostedIllustrationsStatus;
     }
   },
   beforeCreate() {
