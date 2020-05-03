@@ -8,7 +8,7 @@
           alt="幻水総選挙2020 タイトル"
           class="shrink"
           contain
-          src="/gensosenkyo_2020_title.png"
+          src="/gensosenkyo_header_2020_black.jpg"
           transition="scale-transition"
         />
       </div>
