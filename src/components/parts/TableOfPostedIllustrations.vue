@@ -9,6 +9,17 @@
         <ul>
           <li>1キャラにつき4枚募集（添付画像が最大4枚の為）</li>
           <li>4枠埋まった時点で募集終了となります</li>
+          <li>
+            応募前にご予約をすることが可能です（お一人様2キャラまで）
+            <ul>
+              <li>
+                <a href="https://twitter.com/gensosenkyo" target="_blank"
+                  >主催アカウント (@gensosenkyo)</a
+                >
+                宛にDMをお送り下さい
+              </li>
+            </ul>
+          </li>
         </ul>
 
         <br />
