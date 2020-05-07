@@ -52,45 +52,41 @@
           <p class="title text--primary font-weight-bold">
             キャラ別応募数
           </p>
-          <v-simple-table>
-            <template>
-              <thead>
-                <tr>
-                  <th class="text-left subtitle-1 font-weight-bold">
-                    キャラ名
-                  </th>
-                  <th class="text-left subtitle-1 font-weight-bold">応募数</th>
-                </tr>
-              </thead>
 
-              <tbody>
-                <tr
-                  v-for="(numberOfVote,
-                  characterName) in sortedPostedIllustrationsStatus(
-                    this.postedIllustrationsStatus
-                  )"
-                  :key="characterName"
+          <v-row>
+            <v-col cols="12" sm="12" class="d-flex align-end flex-column">
+              <v-text-field
+                v-model="search"
+                append-icon="mdi-magnify"
+                label="キャラ名検索"
+                single-line
+                hide-details
+              ></v-text-field>
+            </v-col>
+          </v-row>
+          <v-data-table
+            :headers="headers"
+            :items="postedIllustrationsData()"
+            hide-default-footer
+            :items-per-page="500"
+            :search="search"
+          >
+            <template v-slot:item.numberOfPosted="{ item }">
+              <div v-if="isEntryClosed(item.numberOfPosted)">
+                <span
+                  :class="{
+                    'is-entry-closed': true,
+                    'font-weight-bold': true
+                  }"
                 >
-                  <td>{{ characterName }}</td>
-                  <td>
-                    <div v-if="isEntryClosed(numberOfVote)">
-                      <span
-                        :class="{
-                          'is-entry-closed': true,
-                          'font-weight-bold': true
-                        }"
-                      >
-                        {{ numberOfVoteWithNotion(numberOfVote) }}
-                      </span>
-                    </div>
-                    <div v-else>
-                      {{ numberOfVoteWithNotion(numberOfVote) }}
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
+                  {{ numberOfVoteWithNotion(item.numberOfPosted) }}
+                </span>
+              </div>
+              <div v-else>
+                {{ numberOfVoteWithNotion(item.numberOfPosted) }}
+              </div>
             </template>
-          </v-simple-table>
+          </v-data-table>
         </div>
       </v-col>
     </v-row>
@@ -105,10 +101,39 @@ export default {
     return {
       postedIllustrationsStatus: null,
       currentStatusInfo: [],
-      showLoadingAnime: true
+      showLoadingAnime: true,
+      search: "",
+      headers: [
+        {
+          text: "キャラ名",
+          align: "start",
+          sortable: false,
+          value: "charaName",
+          class: ["text-left", "subtitle-1", "font-weight-bold"]
+        },
+        {
+          text: "応募数",
+          value: "numberOfPosted",
+          class: ["text-left", "subtitle-1", "font-weight-bold"],
+          filterable: false
+        }
+      ]
     };
   },
   methods: {
+    postedIllustrationsData: function() {
+      const arrayFromObject = Object.entries(
+        this.sortedPostedIllustrationsStatus(this.postedIllustrationsStatus)
+      );
+      const postedIllustrationsData = arrayFromObject.map(element => {
+        return {
+          charaName: element[0],
+          numberOfPosted: element[1]
+        };
+      });
+
+      return postedIllustrationsData;
+    },
     sumOfPostedIllustrations: function() {
       return Object.values(this.postedIllustrationsStatus).reduce(
         (sum, element) => sum + element,
