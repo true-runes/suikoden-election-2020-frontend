@@ -35,43 +35,61 @@
             <img src="../../assets/loading_spinner_anime.gif" />
           </v-layout>
         </div>
-        <v-simple-table v-else>
-          <template>
-            <thead>
-              <tr>
-                <th class="text-left subtitle-1 font-weight-bold">キャラ名</th>
-                <th class="text-left subtitle-1 font-weight-bold">応募数</th>
-              </tr>
-            </thead>
+        <div v-else>
+          <p class="headline text--primary font-weight-bold">
+            応募状況
+          </p>
 
-            <tbody>
-              <tr
-                v-for="(numberOfVote,
-                characterName) in sortedPostedIllustrationsStatus(
-                  this.postedIllustrationsStatus
-                )"
-                :key="characterName"
-              >
-                <td>{{ characterName }}</td>
-                <td>
-                  <div v-if="isEntryClosed(numberOfVote)">
-                    <span
-                      :class="{
-                        'is-entry-closed': true,
-                        'font-weight-bold': true
-                      }"
-                    >
+          <p class="title text--primary font-weight-bold">
+            総応募数
+          </p>
+          <div class="text--primary">{{ sumOfPostedIllustrations() }} 枚</div>
+
+          <br />
+
+          <p class="title text--primary font-weight-bold">
+            キャラ別応募数
+          </p>
+          <v-simple-table>
+            <template>
+              <thead>
+                <tr>
+                  <th class="text-left subtitle-1 font-weight-bold">
+                    キャラ名
+                  </th>
+                  <th class="text-left subtitle-1 font-weight-bold">応募数</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr
+                  v-for="(numberOfVote,
+                  characterName) in sortedPostedIllustrationsStatus(
+                    this.postedIllustrationsStatus
+                  )"
+                  :key="characterName"
+                >
+                  <td>{{ characterName }}</td>
+                  <td>
+                    <div v-if="isEntryClosed(numberOfVote)">
+                      <span
+                        :class="{
+                          'is-entry-closed': true,
+                          'font-weight-bold': true
+                        }"
+                      >
+                        {{ numberOfVoteWithNotion(numberOfVote) }}
+                      </span>
+                    </div>
+                    <div v-else>
                       {{ numberOfVoteWithNotion(numberOfVote) }}
-                    </span>
-                  </div>
-                  <div v-else>
-                    {{ numberOfVoteWithNotion(numberOfVote) }}
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </template>
-        </v-simple-table>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -89,6 +107,12 @@ export default {
     };
   },
   methods: {
+    sumOfPostedIllustrations: function() {
+      return Object.values(this.postedIllustrationsStatus).reduce(
+        (sum, element) => sum + element,
+        0
+      );
+    },
     // TODO: リファクタリング
     isEntryClosed: function(numberOfVote) {
       if (numberOfVote >= 4) {
