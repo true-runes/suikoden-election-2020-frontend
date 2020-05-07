@@ -43,7 +43,9 @@
           <p class="title text--primary font-weight-bold">
             総応募数
           </p>
-          <div class="text--primary">{{ sumOfPostedIllustrations() }} 枚</div>
+          <ul class="no-list-dot">
+            <li>{{ sumOfPostedIllustrations() }} 枚</li>
+          </ul>
 
           <br />
 
@@ -162,5 +164,8 @@ export default {
 <style scoped>
 .is-entry-closed {
   color: red;
+}
+ul.no-list-dot {
+  list-style: none;
 }
 </style>
