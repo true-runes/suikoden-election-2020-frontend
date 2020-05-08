@@ -1,8 +1,8 @@
 on: [push]
-name: Suikoden Election 2020
+name: Suikoden Election 2020 Frontend
 jobs:
   suikoden_election_2020_github_actions:
-    name: Suikoden Election 2020 CI
+    name: Suikoden Election 2020 Frontend CI
     runs-on: ubuntu-latest
 
     strategy:
