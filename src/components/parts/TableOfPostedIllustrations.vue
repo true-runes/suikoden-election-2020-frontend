@@ -44,7 +44,7 @@
           <br />
 
           <p class="title text--primary font-weight-bold">
-            キャラ別応募数
+            現在までに応募を頂いたキャラ
           </p>
           <v-simple-table>
             <template>
