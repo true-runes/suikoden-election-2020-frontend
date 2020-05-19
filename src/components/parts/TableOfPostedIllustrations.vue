@@ -10,9 +10,7 @@
           <li>
             1キャラにつき4枚募集（添付画像が最大4枚の為）
             <ul>
-              <li>
-                4枠埋まった時点で募集終了となります
-              </li>
+              <li>4枠埋まった時点で募集終了となります</li>
             </ul>
           </li>
           <li>
@@ -22,16 +20,16 @@
             応募前にご予約を頂ければ枠を確保いたします（一度に2キャラまで）
             <ul>
               <li>
-                主催アカウント (<a
-                  href="https://twitter.com/gensosenkyo"
-                  target="_blank"
+                主催アカウント (
+                <a href="https://twitter.com/gensosenkyo" target="_blank"
                   >@gensosenkyo</a
                 >) 宛にDMをお送り下さい
               </li>
             </ul>
           </li>
           <li>
-            応募についての詳細は<a
+            応募についての詳細は
+            <a
               href="https://twitter.com/gensosenkyo/status/1256581551355133952"
               target="_blank"
               >こちらのツイート</a
@@ -47,13 +45,9 @@
           </v-layout>
         </div>
         <div v-else>
-          <p class="headline text--primary font-weight-bold">
-            応募状況
-          </p>
+          <p class="headline text--primary font-weight-bold">応募状況</p>
 
-          <p class="title text--primary font-weight-bold">
-            総応募数
-          </p>
+          <p class="title text--primary font-weight-bold">総応募数</p>
           <ul class="no-list-dot">
             <li>{{ sumOfPostedIllustrations() }} 枚</li>
           </ul>
@@ -78,7 +72,7 @@
                 <tr
                   v-for="(numberOfVote,
                   characterName) in sortedPostedIllustrationsStatus(
-                    this.postedIllustrationsStatus
+                    this.postedIllustrationsStatus,
                   )"
                   :key="characterName"
                 >
@@ -88,15 +82,12 @@
                       <span
                         :class="{
                           'is-entry-closed': true,
-                          'font-weight-bold': true
+                          'font-weight-bold': true,
                         }"
+                        >{{ numberOfVoteWithNotion(numberOfVote) }}</span
                       >
-                        {{ numberOfVoteWithNotion(numberOfVote) }}
-                      </span>
                     </div>
-                    <div v-else>
-                      {{ numberOfVoteWithNotion(numberOfVote) }}
-                    </div>
+                    <div v-else>{{ numberOfVoteWithNotion(numberOfVote) }}</div>
                   </td>
                 </tr>
               </tbody>
@@ -109,67 +100,67 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios'
 
 export default {
   data() {
     return {
       postedIllustrationsStatus: null,
       currentStatusInfo: [],
-      showLoadingAnime: true
-    };
+      showLoadingAnime: true,
+    }
   },
   methods: {
     sumOfPostedIllustrations: function() {
       return Object.values(this.postedIllustrationsStatus).reduce(
         (sum, element) => sum + element,
-        0
-      );
+        0,
+      )
     },
     // TODO: リファクタリング
     isEntryClosed: function(numberOfVote) {
       if (numberOfVote >= 4) {
-        return true;
+        return true
       } else {
-        return false;
+        return false
       }
     },
     // TODO: リファクタリング
     numberOfVoteWithNotion: function(numberOfVote) {
       if (numberOfVote >= 4) {
-        return `${numberOfVote}（終了）`;
+        return `${numberOfVote}（終了）`
       } else {
-        return numberOfVote;
+        return numberOfVote
       }
     },
     sortedPostedIllustrationsStatus: function(postedIllustrationsStatus) {
-      const chatacterNames = Object.keys(postedIllustrationsStatus);
+      const chatacterNames = Object.keys(postedIllustrationsStatus)
       const entriesPostedIllustrationsStatus = Object.entries(
-        postedIllustrationsStatus
-      );
+        postedIllustrationsStatus,
+      )
       const sortedCharacterNames = chatacterNames.sort((x, y) =>
-        x.localeCompare(y, "ja")
-      );
+        x.localeCompare(y, 'ja'),
+      )
 
-      const sortedPostedIllustrationsStatus = {};
+      const sortedPostedIllustrationsStatus = {}
       sortedCharacterNames.forEach(character => {
         entriesPostedIllustrationsStatus.forEach(entry => {
           if (character === entry[0]) {
-            sortedPostedIllustrationsStatus[character] = entry[1];
+            sortedPostedIllustrationsStatus[character] = entry[1]
           }
-        });
-      });
+        })
+      })
 
-      return sortedPostedIllustrationsStatus;
-    }
+      return sortedPostedIllustrationsStatus
+    },
   },
   beforeCreate() {
     axios
       .get(process.env.VUE_APP_POSTED_ILLUSTRATIONS_STATUS_API)
       .then(response => (this.postedIllustrationsStatus = response.data))
-      .then(() => (this.showLoadingAnime = false));
-  }
-};
+      .then(() => (this.showLoadingAnime = false))
+  },
+}
 </script>
 
 <style scoped>

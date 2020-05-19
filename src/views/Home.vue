@@ -1,5 +1,6 @@
 <template>
   <div>
+    <CountDown />
     <SiteAttentions />
     <VotingTerm />
     <ShowResultDate />
@@ -13,18 +14,18 @@
 </template>
 
 <script>
-import VotingTerm from "../components/parts/VotingTerm";
-import ShowResultDate from "../components/parts/ShowResultDate";
-import EnabledVotingCountNumber from "../components/parts/EnabledVotingCountNumber";
-import HowToVote from "../components/parts/HowToVote";
-import NoteForVoting from "../components/parts/NoteForVoting";
-import NoteForThisEvent from "../components/parts/NoteForThisEvent";
-import VotingExample from "../components/parts/VotingExample";
-import AboutIllustrationsCountingOfVotes from "../components/parts/AboutIllustrationsCountingOfVotes";
-import SiteAttentions from "../components/parts/SiteAttentions";
+import VotingTerm from '../components/parts/VotingTerm'
+import ShowResultDate from '../components/parts/ShowResultDate'
+import EnabledVotingCountNumber from '../components/parts/EnabledVotingCountNumber'
+import HowToVote from '../components/parts/HowToVote'
+import NoteForVoting from '../components/parts/NoteForVoting'
+import NoteForThisEvent from '../components/parts/NoteForThisEvent'
+import VotingExample from '../components/parts/VotingExample'
+import AboutIllustrationsCountingOfVotes from '../components/parts/AboutIllustrationsCountingOfVotes'
+import SiteAttentions from '../components/parts/SiteAttentions'
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     VotingTerm,
     ShowResultDate,
@@ -34,9 +35,9 @@ export default {
     NoteForVoting,
     NoteForThisEvent,
     AboutIllustrationsCountingOfVotes,
-    SiteAttentions
-  }
-};
+    SiteAttentions,
+  },
+}
 </script>
 
 <style scoped></style>
