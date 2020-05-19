@@ -3,9 +3,7 @@
     <v-app-bar dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        <router-link to="/" class="white--text">
-          幻水総選挙2020
-        </router-link>
+        <router-link to="/" class="white--text">幻水総選挙2020</router-link>
       </v-toolbar-title>
     </v-app-bar>
 
@@ -17,17 +15,13 @@
         >
           <router-link to="/">
             <v-list-item>
-              <v-list-item-title>
-                ホーム
-              </v-list-item-title>
+              <v-list-item-title>ホーム</v-list-item-title>
             </v-list-item>
           </router-link>
 
           <router-link to="/status_of_illustrations">
             <v-list-item>
-              <v-list-item-title>
-                開票イラスト応募状況
-              </v-list-item-title>
+              <v-list-item-title>開票イラスト応募状況</v-list-item-title>
             </v-list-item>
           </router-link>
 
@@ -67,14 +61,14 @@
 export default {
   data: () => ({
     drawer: false,
-    group: null
+    group: null,
   }),
   watch: {
     group() {
-      this.drawer = false;
-    }
-  }
-};
+      this.drawer = false
+    },
+  },
+}
 </script>
 
 <style scoped>
