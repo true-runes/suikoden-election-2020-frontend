@@ -8,8 +8,9 @@
         <div class="text--primary">
           本ページに記載されている情報は最新でない可能性があります。
           <div class="text--primary">
-            最新の情報は
-            <a href="https://twitter.com/gensosenkyo" target="_blank"
+            最新の情報は<a
+              href="https://twitter.com/gensosenkyo"
+              target="_blank"
               >主催アカウント (@gensosenkyo) によるツイート</a
             >をご覧ください。
           </div>
