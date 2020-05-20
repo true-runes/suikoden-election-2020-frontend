@@ -3,9 +3,10 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          開票イラスト応募状況
+          開票イラストについて
         </p>
 
+        <p class="title text--primary font-weight-bold">募集概要</p>
         <ul>
           <li>
             1キャラにつき4枚募集（添付画像が最大4枚の為）
@@ -20,8 +21,9 @@
             応募前にご予約を頂ければ枠を確保いたします（一度に2キャラまで）
             <ul>
               <li>
-                主催アカウント (
-                <a href="https://twitter.com/gensosenkyo" target="_blank"
+                主催アカウント (<a
+                  href="https://twitter.com/gensosenkyo"
+                  target="_blank"
                   >@gensosenkyo</a
                 >) 宛にDMをお送り下さい
               </li>
@@ -33,11 +35,35 @@
               href="https://twitter.com/gensosenkyo/status/1256581551355133952"
               target="_blank"
               >こちらのツイート</a
-            >をご覧ください。
+            >をご覧ください
+          </li>
+          <li>
+            オープニングおよびクロージングイラストを描いて頂ける方が決定いたしましたので、こちらの募集は終了させて頂きます
           </li>
         </ul>
 
         <br />
+
+        <p class="title text--primary font-weight-bold">
+          よくあるご質問とその答え
+        </p>
+        <ul>
+          <li>
+            応募状況のページにないキャラを描いてもいいですか？
+            <ul>
+              <li>
+                こちらのページの一覧はあくまで「現在応募頂いてるキャラ」の一覧ですので、お好きなキャラでご応募ください
+              </li>
+              <li>もし得票がなかった場合は、イラストは個別に掲載いたします</li>
+              <li>
+                「キャラ」と表現しておりますが、例えば「ししのはた」などの開票イラストも喜んで募集しております🦁
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <br />
+
+        <p class="headline text--primary font-weight-bold">応募状況</p>
 
         <div v-if="showLoadingAnime">
           <v-layout justify-center>
@@ -45,8 +71,6 @@
           </v-layout>
         </div>
         <div v-else>
-          <p class="headline text--primary font-weight-bold">応募状況</p>
-
           <p class="title text--primary font-weight-bold">総応募数</p>
           <ul class="no-list-dot">
             <li>{{ sumOfPostedIllustrations() }} 枚</li>
