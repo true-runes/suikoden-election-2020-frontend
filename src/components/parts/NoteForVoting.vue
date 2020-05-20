@@ -17,13 +17,10 @@
           <span class="title">「坊ちゃん」への投票について</span>
           <ul>
             <li>
-              幻水総選挙2020では<span class="font-weight-bold"
-                >「坊ちゃん」は投票対象です</span
-              >
+              幻水総選挙2020では
+              <span class="font-weight-bold">「坊ちゃん」は投票対象です</span>
             </li>
-            <li>
-              殿堂入りの称号は1年限りのためです
-            </li>
+            <li>殿堂入りの称号は1年限りのためです</li>
           </ul>
         </div>
       </v-col>

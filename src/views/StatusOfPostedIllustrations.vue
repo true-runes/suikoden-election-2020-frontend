@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import TableOfPostedIllustrations from "../components/parts/TableOfPostedIllustrations";
+import TableOfPostedIllustrations from '../components/parts/TableOfPostedIllustrations'
 
 export default {
-  name: "StatusOfPostedIllustrations",
+  name: 'StatusOfPostedIllustrations',
   components: {
-    TableOfPostedIllustrations
-  }
-};
+    TableOfPostedIllustrations,
+  },
+}
 </script>
 
 <style scoped></style>
