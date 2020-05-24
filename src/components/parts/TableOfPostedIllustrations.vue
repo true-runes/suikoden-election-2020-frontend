@@ -20,6 +20,15 @@
             </div>
           </li>
           <li>
+            送付〆切は <span class="important-notice">6/6（土）23:59</span> です
+          </li>
+        </ul>
+
+        <br />
+
+        <p class="title text--primary font-weight-bold">募集枚数</p>
+        <ul>
+          <li>
             1キャラにつき4枚募集（添付画像が最大4枚の為）
             <ul>
               <li>4枠埋まった時点で募集終了となります</li>
