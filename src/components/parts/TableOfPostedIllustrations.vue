@@ -9,6 +9,17 @@
         <p class="title text--primary font-weight-bold">募集概要</p>
         <ul>
           <li>
+            <div class="important-notice">
+              応募についての詳細は
+              <a
+                href="https://twitter.com/gensosenkyo/status/1256581551355133952"
+                target="_blank"
+                >こちらのツイート</a
+              >
+              をご覧ください
+            </div>
+          </li>
+          <li>
             1キャラにつき4枚募集（添付画像が最大4枚の為）
             <ul>
               <li>4枠埋まった時点で募集終了となります</li>
@@ -30,14 +41,6 @@
             </ul>
           </li>
           <li>
-            応募についての詳細は
-            <a
-              href="https://twitter.com/gensosenkyo/status/1256581551355133952"
-              target="_blank"
-              >こちらのツイート</a
-            >をご覧ください
-          </li>
-          <li>
             オープニングおよびクロージングのイラストについては、募集が終了しております
           </li>
         </ul>
@@ -56,7 +59,7 @@
               </li>
               <li>もし得票がなかった場合は、イラストは個別に掲載いたします</li>
               <li>
-                「キャラ」と表現しておりますが、例えば「ししのはた」などの開票イラストも喜んで募集しております🦁
+                「キャラ」と表現しておりますが、例えば「ししのはた」などのイラストも喜んで募集しております🦁
               </li>
             </ul>
           </li>
@@ -191,7 +194,13 @@ export default {
 .is-entry-closed {
   color: red;
 }
+
 ul.no-list-dot {
   list-style: none;
+}
+
+.important-notice {
+  color: red;
+  font-weight: bold;
 }
 </style>

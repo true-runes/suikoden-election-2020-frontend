@@ -24,8 +24,9 @@
           <span class="title">非公開アカウント（鍵付き）の場合</span>
           <ul>
             <li>
-              主催アカウント (
-              <a href="https://twitter.com/gensosenkyo" target="_blank"
+              主催アカウント (<a
+                href="https://twitter.com/gensosenkyo"
+                target="_blank"
                 >@gensosenkyo</a
               >) へのDMで投票します
             </li>
