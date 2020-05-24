@@ -1,6 +1,5 @@
 <template>
   <div>
-    <CountDown />
     <SiteAttentions />
     <VotingTerm />
     <ShowResultDate />
