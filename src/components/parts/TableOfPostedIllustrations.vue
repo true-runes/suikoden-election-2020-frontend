@@ -24,7 +24,7 @@
 
         <br />
 
-        <p class="title text--primary font-weight-bold">詳細</p>
+        <p class="title text--primary font-weight-bold">募集詳細</p>
         <ul>
           <li>
             1キャラにつき4枚募集（添付画像が最大4枚の為）
@@ -37,8 +37,42 @@
             応募前にご予約を頂ければ枠を確保いたします（一度に2キャラまで）
             <ul>
               <li>
-                主催アカウント (
-                <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a>) 宛にDMをお送り下さい
+                主催アカウント
+                <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a> 宛にDMをお送りください
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="important-notice">イラストには Twitter の ID（例: @gensosenkyo）をご記入ください</div>
+          </li>
+          <li>開票イラストの特性上、応募したキャラがメインとなるようなイラストでお願いします</li>
+          <li>「カラー or モノクロ」、「デジタル or アナログ」などは自由です</li>
+        </ul>
+
+        <br />
+
+        <p class="title text--primary font-weight-bold">イラスト送付方法</p>
+        <ul>
+          <li>
+            イラストは以下のいずれかの方法でご送付をお願いします
+            <ul>
+              <li>
+                主催アカウント
+                <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a> 宛にDMで送信
+              </li>
+              <li>
+                Google フォーム で送信（フォームについての説明は
+                <a
+                  href="https://twitter.com/gensosenkyo/status/1256609585340669952?s=20"
+                  target="_blank"
+                >こちら</a> をご覧ください）
+              </li>
+              <li>
+                firestorage や Dropbox のような外部サービスを利用（URL を主催アカウント
+                <a
+                  href="https://twitter.com/gensosenkyo"
+                  target="_blank"
+                >@gensosenkyo</a> 宛にDMで送信してください）
               </li>
             </ul>
           </li>
