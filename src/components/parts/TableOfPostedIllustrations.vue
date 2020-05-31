@@ -63,9 +63,9 @@
               <li>
                 Google フォーム で送信（フォームについての説明は
                 <a
-                  href="https://twitter.com/gensosenkyo/status/1256609585340669952?s=20"
+                  href="https://twitter.com/gensosenkyo/status/1256609585340669952"
                   target="_blank"
-                >こちら</a> をご覧ください）
+                >こちらのツイート</a> をご覧ください）
               </li>
               <li>
                 firestorage や Dropbox のような外部サービスを利用（URL を主催アカウント
