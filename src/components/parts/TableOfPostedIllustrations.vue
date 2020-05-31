@@ -2,9 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <p class="headline text--primary font-weight-bold">
-          開票イラストについて
-        </p>
+        <p class="headline text--primary font-weight-bold">開票イラストについて</p>
 
         <p class="title text--primary font-weight-bold">募集概要</p>
         <ul>
@@ -14,19 +12,19 @@
               <a
                 href="https://twitter.com/gensosenkyo/status/1256581551355133952"
                 target="_blank"
-                >こちらのツイート</a
-              >
+              >こちらのツイート</a>
               をご覧ください
             </div>
           </li>
           <li>
-            送付〆切は <span class="important-notice">6/6（土）23:59</span> です
+            送付〆切は
+            <span class="important-notice">6/6（土）23:59</span> です
           </li>
         </ul>
 
         <br />
 
-        <p class="title text--primary font-weight-bold">募集枚数</p>
+        <p class="title text--primary font-weight-bold">詳細</p>
         <ul>
           <li>
             1キャラにつき4枚募集（添付画像が最大4枚の為）
@@ -34,42 +32,29 @@
               <li>4枠埋まった時点で募集終了となります</li>
             </ul>
           </li>
-          <li>
-            お一人様何枚でも応募頂くことができます（ただし、同じキャラには応募できません）
-          </li>
+          <li>お一人様何枚でも応募頂くことができます（ただし、同じキャラには応募できません）</li>
           <li>
             応募前にご予約を頂ければ枠を確保いたします（一度に2キャラまで）
             <ul>
               <li>
-                主催アカウント (<a
-                  href="https://twitter.com/gensosenkyo"
-                  target="_blank"
-                  >@gensosenkyo</a
-                >) 宛にDMをお送り下さい
+                主催アカウント (
+                <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a>) 宛にDMをお送り下さい
               </li>
             </ul>
           </li>
-          <li>
-            オープニングおよびクロージングのイラストについては、募集が終了しております
-          </li>
+          <li>オープニングおよびクロージングのイラストについては、募集が終了しております</li>
         </ul>
 
         <br />
 
-        <p class="title text--primary font-weight-bold">
-          よくあるご質問とその答え
-        </p>
+        <p class="title text--primary font-weight-bold">よくあるご質問とその答え</p>
         <ul>
           <li>
             応募状況のページにないキャラを描いてもいいですか？
             <ul>
-              <li>
-                こちらのページの一覧はあくまで「現在応募頂いてるキャラ」の一覧ですので、お好きなキャラでご応募ください
-              </li>
+              <li>こちらのページの一覧はあくまで「現在応募頂いてるキャラ」の一覧ですので、お好きなキャラでご応募ください</li>
               <li>もし得票がなかった場合は、イラストは個別に掲載いたします</li>
-              <li>
-                「キャラ」と表現しておりますが、例えば「ししのはた」などのイラストも喜んで募集しております🦁
-              </li>
+              <li>「キャラ」と表現しておりますが、例えば「ししのはた」などのイラストも喜んで募集しております🦁</li>
             </ul>
           </li>
         </ul>
@@ -90,16 +75,12 @@
 
           <br />
 
-          <p class="title text--primary font-weight-bold">
-            現在までに応募を頂いたキャラ
-          </p>
+          <p class="title text--primary font-weight-bold">現在までに応募を頂いたキャラ</p>
           <v-simple-table>
             <template>
               <thead>
                 <tr>
-                  <th class="text-left subtitle-1 font-weight-bold">
-                    キャラ名
-                  </th>
+                  <th class="text-left subtitle-1 font-weight-bold">キャラ名</th>
                   <th class="text-left subtitle-1 font-weight-bold">応募数</th>
                 </tr>
               </thead>
@@ -120,8 +101,7 @@
                           'is-entry-closed': true,
                           'font-weight-bold': true,
                         }"
-                        >{{ numberOfVoteWithNotion(numberOfVote) }}</span
-                      >
+                      >{{ numberOfVoteWithNotion(numberOfVote) }}</span>
                     </div>
                     <div v-else>{{ numberOfVoteWithNotion(numberOfVote) }}</div>
                   </td>
