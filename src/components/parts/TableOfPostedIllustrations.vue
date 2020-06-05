@@ -2,7 +2,9 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <p class="headline text--primary font-weight-bold">開票イラストについて</p>
+        <p class="headline text--primary font-weight-bold">
+          開票イラストについて
+        </p>
 
         <p class="title text--primary font-weight-bold">募集概要</p>
         <ul>
@@ -12,7 +14,8 @@
               <a
                 href="https://twitter.com/gensosenkyo/status/1256581551355133952"
                 target="_blank"
-              >こちらのツイート</a>
+                >こちらのツイート</a
+              >
               をご覧ください
             </div>
           </li>
@@ -32,21 +35,32 @@
               <li>4枠埋まった時点で募集終了となります</li>
             </ul>
           </li>
-          <li>お一人様何枚でも応募頂くことができます（ただし、同じキャラには応募できません）</li>
+          <li>
+            お一人様何枚でも応募頂くことができます（ただし、同じキャラには応募できません）
+          </li>
           <li>
             応募前にご予約を頂ければ枠を確保いたします（一度に2キャラまで）
             <ul>
               <li>
                 主催アカウント
-                <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a> 宛にDMをお送りください
+                <a href="https://twitter.com/gensosenkyo" target="_blank"
+                  >@gensosenkyo</a
+                >
+                宛にDMをお送りください
               </li>
             </ul>
           </li>
           <li>
-            <div class="important-notice">イラストには Twitter の ID（例: @gensosenkyo）をご記入ください</div>
+            <div class="important-notice">
+              イラストには Twitter の ID（例: @gensosenkyo）をご記入ください
+            </div>
           </li>
-          <li>開票イラストの特性上、応募したキャラがメインとなるようなイラストでお願いします</li>
-          <li>「カラー or モノクロ」、「デジタル or アナログ」などは自由です</li>
+          <li>
+            開票イラストの特性上、応募したキャラがメインとなるようなイラストでお願いします
+          </li>
+          <li>
+            「カラー or モノクロ」、「デジタル or アナログ」などは自由です
+          </li>
         </ul>
 
         <br />
@@ -58,21 +72,27 @@
             <ul>
               <li>
                 主催アカウント
-                <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a> 宛にDMで送信
+                <a href="https://twitter.com/gensosenkyo" target="_blank"
+                  >@gensosenkyo</a
+                >
+                宛にDMで送信
               </li>
               <li>
                 Google フォーム で送信（フォームについての説明は
                 <a
                   href="https://twitter.com/gensosenkyo/status/1256609585340669952"
                   target="_blank"
-                >こちらのツイート</a> をご覧ください）
+                  >こちらのツイート</a
+                >
+                をご覧ください）
               </li>
               <li>
-                firestorage や Dropbox のような外部サービスを利用（URL を主催アカウント
-                <a
-                  href="https://twitter.com/gensosenkyo"
-                  target="_blank"
-                >@gensosenkyo</a> 宛にDMで送信してください）
+                firestorage や Dropbox のような外部サービスを利用（URL
+                を主催アカウント
+                <a href="https://twitter.com/gensosenkyo" target="_blank"
+                  >@gensosenkyo</a
+                >
+                宛にDMで送信してください）
               </li>
             </ul>
           </li>
@@ -80,14 +100,20 @@
 
         <br />
 
-        <p class="title text--primary font-weight-bold">よくあるご質問とその答え</p>
+        <p class="title text--primary font-weight-bold">
+          よくあるご質問とその答え
+        </p>
         <ul>
           <li>
             応募状況のページにないキャラを描いてもいいですか？
             <ul>
-              <li>こちらのページの一覧はあくまで「現在応募頂いてるキャラ」の一覧ですので、お好きなキャラでご応募ください</li>
+              <li>
+                こちらのページの一覧はあくまで「現在応募頂いてるキャラ」の一覧ですので、お好きなキャラでご応募ください
+              </li>
               <li>もし得票がなかった場合は、イラストは個別に掲載いたします</li>
-              <li>「キャラ」と表現しておりますが、例えば「ししのはた」などのイラストも喜んで募集しております🦁</li>
+              <li>
+                「キャラ」と表現しておりますが、例えば「ししのはた」などのイラストも喜んで募集しております🦁
+              </li>
             </ul>
           </li>
         </ul>
@@ -108,12 +134,16 @@
 
           <br />
 
-          <p class="title text--primary font-weight-bold">現在までに応募を頂いたキャラ</p>
+          <p class="title text--primary font-weight-bold">
+            現在までに応募を頂いたキャラ
+          </p>
           <v-simple-table>
             <template>
               <thead>
                 <tr>
-                  <th class="text-left subtitle-1 font-weight-bold">キャラ名</th>
+                  <th class="text-left subtitle-1 font-weight-bold">
+                    キャラ名
+                  </th>
                   <th class="text-left subtitle-1 font-weight-bold">応募数</th>
                 </tr>
               </thead>
@@ -134,7 +164,8 @@
                           'is-entry-closed': true,
                           'font-weight-bold': true,
                         }"
-                      >{{ numberOfVoteWithNotion(numberOfVote) }}</span>
+                        >{{ numberOfVoteWithNotion(numberOfVote) }}</span
+                      >
                     </div>
                     <div v-else>{{ numberOfVoteWithNotion(numberOfVote) }}</div>
                   </td>
