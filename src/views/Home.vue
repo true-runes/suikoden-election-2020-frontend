@@ -13,18 +13,17 @@
 </template>
 
 <script>
-import VotingTerm from '../components/parts/VotingTerm'
-import ShowResultDate from '../components/parts/ShowResultDate'
-import EnabledVotingCountNumber from '../components/parts/EnabledVotingCountNumber'
-import HowToVote from '../components/parts/HowToVote'
-import NoteForVoting from '../components/parts/NoteForVoting'
-import NoteForThisEvent from '../components/parts/NoteForThisEvent'
-import VotingExample from '../components/parts/VotingExample'
-import AboutIllustrationsCountingOfVotes from '../components/parts/AboutIllustrationsCountingOfVotes'
-import SiteAttentions from '../components/parts/SiteAttentions'
+import VotingTerm from '@/components/parts/Home/VotingTerm'
+import ShowResultDate from '@/components/parts/Home/ShowResultDate'
+import EnabledVotingCountNumber from '@/components/parts/Home/EnabledVotingCountNumber'
+import HowToVote from '@/components/parts/Home/HowToVote'
+import NoteForVoting from '@/components/parts/Home/NoteForVoting'
+import NoteForThisEvent from '@/components/parts/Home/NoteForThisEvent'
+import VotingExample from '@/components/parts/Home/VotingExample'
+import AboutIllustrationsCountingOfVotes from '@/components/parts/Home/AboutIllustrationsCountingOfVotes'
+import SiteAttentions from '@/components/parts/Home/SiteAttentions'
 
 export default {
-  name: 'Home',
   components: {
     VotingTerm,
     ShowResultDate,
@@ -35,6 +34,9 @@ export default {
     NoteForThisEvent,
     AboutIllustrationsCountingOfVotes,
     SiteAttentions,
+  },
+  mounted: () => {
+    document.title = 'ホーム - 幻水総選挙 2020'
   },
 }
 </script>

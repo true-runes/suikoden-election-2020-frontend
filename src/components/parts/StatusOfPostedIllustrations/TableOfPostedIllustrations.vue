@@ -117,13 +117,16 @@
             </ul>
           </li>
         </ul>
+
+        <br />
+        <v-divider></v-divider>
         <br />
 
         <p class="headline text--primary font-weight-bold">応募状況</p>
 
         <div v-if="showLoadingAnime">
           <v-layout justify-center>
-            <img src="../../assets/loading_spinner_anime.gif" />
+            <img :src="spinnerAnimeUrl" />
           </v-layout>
         </div>
         <div v-else>
@@ -183,13 +186,12 @@
 import axios from 'axios'
 
 export default {
-  data() {
-    return {
-      postedIllustrationsStatus: null,
-      currentStatusInfo: [],
-      showLoadingAnime: true,
-    }
-  },
+  data: () => ({
+    postedIllustrationsStatus: null,
+    currentStatusInfo: [],
+    showLoadingAnime: true,
+    spinnerAnimeUrl: require('@/assets/loading_spinner_anime.gif'),
+  }),
   methods: {
     sumOfPostedIllustrations: function() {
       return Object.values(this.postedIllustrationsStatus).reduce(

@@ -3,55 +3,85 @@
     <v-app-bar dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        <router-link to="/" class="white--text">幻水総選挙2020</router-link>
+        <router-link :to="{ name: 'root' }" class="white--text"
+          >幻水総選挙 2020</router-link
+        >
       </v-toolbar-title>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
+        <v-list-item class="title font-weight-bold">
+          幻水総選挙 2020
+        </v-list-item>
+
+        <v-divider></v-divider>
+
+        <router-link :to="{ name: 'root' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>ホーム</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
+        <!-- <router-link :to="{ name: 'check-your-vote' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-account-question</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>投票チェック</v-list-item-title>
+          </v-list-item>
+        </router-link> -->
+
+        <router-link :to="{ name: 'status-of-illustrations' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-eye-outline</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>開票イラストについて</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
+        <a href="https://election-2019.suikoden.info/" target="_blank">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-open-in-new</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>幻水総選挙 2019</v-list-item-title>
+          </v-list-item>
+        </a>
+
+        <a href="https://election-2018.suikoden.info/" target="_blank">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-open-in-new</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>幻水総選挙 2018</v-list-item-title>
+          </v-list-item>
+        </a>
+
+        <a href="https://election-2017.suikoden.info/" target="_blank">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-open-in-new</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>幻水総選挙 2017</v-list-item-title>
+          </v-list-item>
+        </a>
+
+        <a
+          href="https://corselia.sakura.ne.jp/gensui/sosenkyo_2016_result/index.php"
+          target="_blank"
         >
-          <router-link to="/">
-            <v-list-item>
-              <v-list-item-title>ホーム</v-list-item-title>
-            </v-list-item>
-          </router-link>
-
-          <router-link to="/status_of_illustrations">
-            <v-list-item>
-              <v-list-item-title>開票イラスト応募状況</v-list-item-title>
-            </v-list-item>
-          </router-link>
-
-          <a href="https://election-2019.suikoden.info/" target="_blank">
-            <v-list-item>
-              <v-list-item-title>幻水総選挙 2019（別サイト）</v-list-item-title>
-            </v-list-item>
-          </a>
-
-          <a href="https://election-2018.suikoden.info/" target="_blank">
-            <v-list-item>
-              <v-list-item-title>幻水総選挙 2018（別サイト）</v-list-item-title>
-            </v-list-item>
-          </a>
-
-          <a href="https://election-2017.suikoden.info/" target="_blank">
-            <v-list-item>
-              <v-list-item-title>幻水総選挙 2017（別サイト）</v-list-item-title>
-            </v-list-item>
-          </a>
-
-          <a
-            href="https://corselia.sakura.ne.jp/gensui/sosenkyo_2016_result/index.php"
-            target="_blank"
-          >
-            <v-list-item>
-              <v-list-item-title>幻水総選挙 2016（別サイト）</v-list-item-title>
-            </v-list-item>
-          </a>
-        </v-list-item-group>
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-open-in-new</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>幻水総選挙 2016</v-list-item-title>
+          </v-list-item>
+        </a>
       </v-list>
     </v-navigation-drawer>
   </div>
