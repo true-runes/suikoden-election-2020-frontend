@@ -14,7 +14,8 @@
             <li>ハッシュタグを用いたツイートにより投票します</li>
             <li>
               ハッシュタグ
-              <span class="font-weight-bold">#幻水総選挙2020</span> を付けてツイートで投票して下さい
+              <span class="font-weight-bold">#幻水総選挙2020</span>
+              を付けてツイートで投票して下さい
             </li>
           </ul>
 
@@ -24,7 +25,10 @@
           <ul>
             <li>
               主催アカウント
-              <a href="https://twitter.com/gensosenkyo" target="_blank">@gensosenkyo</a> へのDMで投票します
+              <a href="https://twitter.com/gensosenkyo" target="_blank"
+                >@gensosenkyo</a
+              >
+              へのDMで投票します
             </li>
           </ul>
         </div>

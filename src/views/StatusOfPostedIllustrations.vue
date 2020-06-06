@@ -5,12 +5,14 @@
 </template>
 
 <script>
-import TableOfPostedIllustrations from '../components/parts/TableOfPostedIllustrations'
+import TableOfPostedIllustrations from '@/components/parts/StatusOfPostedIllustrations/TableOfPostedIllustrations'
 
 export default {
-  name: 'StatusOfPostedIllustrations',
   components: {
     TableOfPostedIllustrations,
+  },
+  mounted: () => {
+    document.title = '開票イラストについて - 幻水総選挙 2020'
   },
 }
 </script>
