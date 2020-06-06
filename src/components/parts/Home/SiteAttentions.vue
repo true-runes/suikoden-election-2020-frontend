@@ -11,7 +11,8 @@
             最新の情報は主催アカウント
             <a href="https://twitter.com/gensosenkyo" target="_blank"
               >@gensosenkyo</a
-            >によるツイートをご覧ください。
+            >
+            によるツイートをご覧ください。
           </div>
         </div>
       </v-col>
