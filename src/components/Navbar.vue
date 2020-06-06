@@ -26,14 +26,14 @@
           </v-list-item>
         </router-link>
 
-        <!-- <router-link :to="{ name: 'check-your-vote' }">
+        <router-link :to="{ name: 'check-your-vote' }">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account-question</v-icon>
             </v-list-item-icon>
             <v-list-item-title>投票チェック</v-list-item-title>
           </v-list-item>
-        </router-link> -->
+        </router-link>
 
         <router-link :to="{ name: 'status-of-illustrations' }">
           <v-list-item>
@@ -89,10 +89,12 @@
 
 <script>
 export default {
-  data: () => ({
-    drawer: false,
-    group: null,
-  }),
+  data: function() {
+    return {
+      drawer: false,
+      group: null,
+    }
+  },
   watch: {
     group() {
       this.drawer = false
