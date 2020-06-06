@@ -17,15 +17,11 @@ export default new VueRouter({
     },
     {
       path: '/status_of_illustrations',
-      redirect: '/status_of_illustrations.html',
-    },
-    {
-      path: '/status_of_illustrations.html',
       name: 'status-of-illustrations',
       component: StatusOfPostedIllustrations,
     },
     {
-      path: '/check_your_vote.html',
+      path: '/check_your_vote',
       name: 'check-your-vote',
       component: CheckYourVote,
     },

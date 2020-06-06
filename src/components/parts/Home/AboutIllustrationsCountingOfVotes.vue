@@ -11,7 +11,8 @@
             href="https://twitter.com/gensosenkyo/status/1256581551355133952"
             target="_blank"
             >こちらのツイート</a
-          >をご覧ください。
+          >
+          をご覧ください。
         </div>
       </v-col>
     </v-row>
