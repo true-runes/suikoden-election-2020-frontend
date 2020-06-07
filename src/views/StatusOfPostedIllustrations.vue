@@ -1,6 +1,8 @@
 <template>
   <div>
-    <TableOfPostedIllustrations />
+    <v-container>
+      <TableOfPostedIllustrations />
+    </v-container>
   </div>
 </template>
 
