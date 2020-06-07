@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-show="yourTweetIdNumbers.length > 1">
     <v-row>
       <v-col cols="12">
         <div id="tweets">
