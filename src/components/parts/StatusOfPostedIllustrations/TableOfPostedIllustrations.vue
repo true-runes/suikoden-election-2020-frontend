@@ -186,12 +186,14 @@
 import axios from 'axios'
 
 export default {
-  data: () => ({
-    postedIllustrationsStatus: null,
-    currentStatusInfo: [],
-    showLoadingAnime: true,
-    spinnerAnimeUrl: require('@/assets/loading_spinner_anime.gif'),
-  }),
+  data: function() {
+    return {
+      postedIllustrationsStatus: null,
+      currentStatusInfo: [],
+      showLoadingAnime: true,
+      spinnerAnimeUrl: this.$store.state.spinnerAnimeUrl,
+    }
+  },
   methods: {
     sumOfPostedIllustrations: function() {
       return Object.values(this.postedIllustrationsStatus).reduce(

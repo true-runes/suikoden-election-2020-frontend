@@ -26,11 +26,6 @@ export default new VueRouter({
       component: CheckYourVote,
     },
     {
-      path: '/check_your_vote/:screen_name',
-      name: 'check-your-vote-with-screen-name',
-      component: CheckYourVote,
-    },
-    {
       path: '*',
       redirect: '/',
     },
