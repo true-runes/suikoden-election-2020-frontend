@@ -10,19 +10,17 @@
             required
           ></v-text-field>
         </v-form>
-        <router-link
+        <v-btn
           :to="{
             name: 'check-your-vote',
             params: { screen_name: this.screenName },
           }"
+          color="#00BFFF"
+          @click="checkYourVote"
+          @keydown.space="checkYourVote"
+          :disabled="!valid || this.screenName.length === 0"
+          >投票チェック</v-btn
         >
-          <v-btn
-            color="primary"
-            @click="checkYourVote"
-            :disabled="!valid || this.screenName.length === 0"
-            >投票チェック</v-btn
-          >
-        </router-link>
       </v-col>
     </v-row>
     <YourVoteStatus
