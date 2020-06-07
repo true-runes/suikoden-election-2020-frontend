@@ -1,13 +1,15 @@
 <template>
-  <v-container>
+  <div>
     <v-row>
       <v-col cols="12">
-        <p class="headline text--primary font-weight-bold">投票チェック</p>
-        <p>ここで確認できるのはツイートによる投票だけ</p>
-        <p>なにかあれば連絡して下さい</p>
+        <div>
+          <p class="headline text--primary font-weight-bold">投票チェック</p>
+          チェックをしたい Twitter の ID
+          を入力して「投票チェック」のボタンを押して下さい。
+        </div>
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 <script></script>

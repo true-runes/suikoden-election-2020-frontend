@@ -30,10 +30,12 @@ export default {
     Navbar,
     Footer,
   },
-  data: () => ({
-    drawer: false,
-    group: null,
-  }),
+  data: function() {
+    return {
+      drawer: false,
+      group: null,
+    }
+  },
   watch: {
     group() {
       this.drawer = false

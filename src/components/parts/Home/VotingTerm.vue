@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <div>
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
@@ -11,7 +11,7 @@
         </div>
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 <script></script>

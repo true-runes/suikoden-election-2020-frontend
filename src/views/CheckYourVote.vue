@@ -1,18 +1,20 @@
 <template>
   <div>
-    <Description />
-    <Status />
+    <v-container>
+      <Description />
+      <Form />
+    </v-container>
   </div>
 </template>
 
 <script>
 import Description from '@/components/parts/CheckYourVote/Description'
-import Status from '@/components/parts/CheckYourVote/Status'
+import Form from '@/components/parts/CheckYourVote/Form'
 
 export default {
   components: {
     Description,
-    Status,
+    Form,
   },
   mounted: () => {
     document.title = '投票チェック - 幻水総選挙 2020'

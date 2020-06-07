@@ -1,18 +1,22 @@
 <template>
   <div>
-    <SiteAttentions />
-    <VotingTerm />
-    <ShowResultDate />
-    <EnabledVotingCountNumber />
-    <HowToVote />
-    <VotingExample />
-    <NoteForVoting />
-    <AboutIllustrationsCountingOfVotes />
-    <NoteForThisEvent />
+    <v-container>
+      <Countdown />
+      <SiteAttentions />
+      <VotingTerm />
+      <ShowResultDate />
+      <EnabledVotingCountNumber />
+      <HowToVote />
+      <VotingExample />
+      <NoteForVoting />
+      <AboutIllustrationsCountingOfVotes />
+      <NoteForThisEvent />
+    </v-container>
   </div>
 </template>
 
 <script>
+import Countdown from '@/components/parts/Home/Countdown'
 import VotingTerm from '@/components/parts/Home/VotingTerm'
 import ShowResultDate from '@/components/parts/Home/ShowResultDate'
 import EnabledVotingCountNumber from '@/components/parts/Home/EnabledVotingCountNumber'
@@ -25,6 +29,7 @@ import SiteAttentions from '@/components/parts/Home/SiteAttentions'
 
 export default {
   components: {
+    Countdown,
     VotingTerm,
     ShowResultDate,
     EnabledVotingCountNumber,
