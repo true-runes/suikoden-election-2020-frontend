@@ -4,7 +4,9 @@
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">投票方法</p>
         投票方法については
-        <router-link :to="{ name: 'how-to-vote' }">こちらのページ</router-link>
+        <a href="https://min.togetter.com/kStoOfK" target="_blank"
+          >min.t のまとめ</a
+        >
         をお読み下さい。
       </v-col>
     </v-row>
