@@ -68,7 +68,7 @@ export default {
       }
 
       // A returned object contains the key 'results' as top level
-      return yourTweetRecords['results'].map(record => record[0])
+      return yourTweetRecords['results'].map(record => record[5])
     },
   },
 }
