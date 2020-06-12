@@ -72,7 +72,7 @@ export default {
         ],
       },
       options: {
-        responsive: true,
+        responsive: false,
         maintainAspectRatio: true,
         scales: {
           xAxes: [
