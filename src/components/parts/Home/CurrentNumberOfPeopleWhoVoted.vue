@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          現在までの投票者数
+          現在までの投票者数（速報値・DM除く）
         </p>
         <div v-if="showLoadingAnime">
           <v-layout justify-center>
