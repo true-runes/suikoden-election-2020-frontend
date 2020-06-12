@@ -1,15 +1,13 @@
 <template>
   <div>
     <v-container>
+      <LinkToHowToVote />
       <Countdown />
-      <SiteAttentions />
+      <CurrentNumberOfPeopleWhoVoted />
       <VotingTerm />
       <ShowResultDate />
-      <EnabledVotingCountNumber />
-      <HowToVote />
-      <VotingExample />
-      <NoteForVoting />
-      <AboutIllustrationsCountingOfVotes />
+      <!-- <AboutIllustrationsCountingOfVotes /> -->
+      <SiteAttentions />
       <NoteForThisEvent />
     </v-container>
   </div>
@@ -19,26 +17,22 @@
 import Countdown from '@/components/parts/Home/Countdown'
 import VotingTerm from '@/components/parts/Home/VotingTerm'
 import ShowResultDate from '@/components/parts/Home/ShowResultDate'
-import EnabledVotingCountNumber from '@/components/parts/Home/EnabledVotingCountNumber'
-import HowToVote from '@/components/parts/Home/HowToVote'
-import NoteForVoting from '@/components/parts/Home/NoteForVoting'
 import NoteForThisEvent from '@/components/parts/Home/NoteForThisEvent'
-import VotingExample from '@/components/parts/Home/VotingExample'
-import AboutIllustrationsCountingOfVotes from '@/components/parts/Home/AboutIllustrationsCountingOfVotes'
 import SiteAttentions from '@/components/parts/Home/SiteAttentions'
+import CurrentNumberOfPeopleWhoVoted from '@/components/parts/Home/CurrentNumberOfPeopleWhoVoted'
+import LinkToHowToVote from '@/components/parts/Home/LinkToHowToVote'
+// import AboutIllustrationsCountingOfVotes from '@/components/parts/Home/AboutIllustrationsCountingOfVotes'
 
 export default {
   components: {
     Countdown,
     VotingTerm,
     ShowResultDate,
-    EnabledVotingCountNumber,
-    HowToVote,
-    VotingExample,
-    NoteForVoting,
     NoteForThisEvent,
-    AboutIllustrationsCountingOfVotes,
     SiteAttentions,
+    CurrentNumberOfPeopleWhoVoted,
+    LinkToHowToVote,
+    // AboutIllustrationsCountingOfVotes,
   },
   mounted: () => {
     document.title = 'ホーム - 幻水総選挙 2020'
