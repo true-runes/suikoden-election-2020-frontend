@@ -14,6 +14,12 @@
           <div class="headline text--primary font-weight-bold">
             {{ yourTweetRecords['number_of_people_who_voted'] }} 人
           </div>
+
+          <VoteStatusChart
+            :your-tweet-records-per-hour-votes="
+              yourTweetRecords['number_of_per_hour_votes']
+            "
+          />
         </div>
       </v-col>
     </v-row>
@@ -22,8 +28,12 @@
 
 <script>
 import axios from 'axios'
+import VoteStatusChart from '@/components/parts/Home/VoteStatusChart'
 
 export default {
+  components: {
+    VoteStatusChart,
+  },
   data: function() {
     return {
       valid: true,
