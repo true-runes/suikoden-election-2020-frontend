@@ -26,19 +26,28 @@
           </v-list-item>
         </router-link>
 
-        <!-- <router-link :to="{ name: 'check-your-vote' }">
+        <a href="https://min.togetter.com/kStoOfK" target="_blank">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-vote</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>投票方法（外部サイト）</v-list-item-title>
+          </v-list-item>
+        </a>
+
+        <router-link :to="{ name: 'check-your-vote' }">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account-question</v-icon>
             </v-list-item-icon>
             <v-list-item-title>投票チェック</v-list-item-title>
           </v-list-item>
-        </router-link> -->
+        </router-link>
 
         <router-link :to="{ name: 'status-of-illustrations' }">
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-eye-outline</v-icon>
+              <v-icon>mdi-image-edit</v-icon>
             </v-list-item-icon>
             <v-list-item-title>開票イラストについて</v-list-item-title>
           </v-list-item>

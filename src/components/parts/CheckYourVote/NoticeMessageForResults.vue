@@ -6,6 +6,9 @@
           <v-alert type="info">
             {{ `@${constantScreenName}` }} さんのツイートが見つかりました
           </v-alert>
+          <v-alert type="info">
+            削除されたツイートがチェック結果に含まれている場合、下記の「ツイート一覧」には「削除されたツイートがあります」と表示されます
+          </v-alert>
         </div>
         <v-alert
           color="primary"
@@ -36,7 +39,7 @@
               持ち票はお一人様 3票 です
             </li>
             <li>
-              ツイートを削除したり、アカウントに鍵を付けたりした場合には、結果への反映に時間がかかる場合があります
+              ツイートを削除したり、アカウントに鍵を付けたりした場合には、結果へ反映されない場合があります
             </li>
             <li>
               投票のやり直しなど、同内容と思われる投票ツイートがあった際には、集計が重複しないように主催側で対応させて頂きます
@@ -53,7 +56,7 @@ export default {
   name: 'notice-message-for-results',
   data: function() {
     return {
-      constantScreenName: this.screenName,
+      constantScreenName: this.normalizeScreenName(this.screenName),
     }
   },
   props: {
@@ -71,6 +74,11 @@ export default {
   methods: {
     numberOfYourTweets: yourTweetRecords => {
       return yourTweetRecords['results'].length
+    },
+    normalizeScreenName: screenName => {
+      // screenName が不正な値だったら？（replaceメソッドを持たない、Strではなかったら？）
+      const normalizedScreenName = screenName.replace(/@/g, '')
+      return normalizedScreenName
     },
   },
 }

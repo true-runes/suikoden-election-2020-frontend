@@ -11,12 +11,12 @@
 
         <div>
           <v-alert
-            color="#A9A9A9"
+            color="#dcdcdc"
             dark
             icon="mdi-information-outline"
             border="left"
           >
-            <ul>
+            <ul class="basic-text-color">
               <li>
                 投票期間は以下のとおりです
                 <ul>
@@ -36,7 +36,7 @@
                 </ul>
               </li>
               <li>
-                ツイートを削除したり、アカウントに鍵を付けたりした場合には、結果への反映に時間がかかる場合があります
+                ツイートを削除したり、アカウントに鍵を付けたりした場合には、結果へ反映されない場合があります
               </li>
               <li>
                 ツイートが見つからなかった場合は集計に反映されない可能性があります
@@ -66,7 +66,7 @@ export default {
   name: 'notice-message-for-no-result',
   data: function() {
     return {
-      constantScreenName: this.screenName,
+      constantScreenName: this.normalizeScreenName(this.screenName),
     }
   },
   props: {
@@ -76,10 +76,21 @@ export default {
       required: true,
     },
   },
+  methods: {
+    normalizeScreenName: screenName => {
+      // screenName が不正な値だったら？（replaceメソッドを持たない、Strではなかったら？）
+      const normalizedScreenName = screenName.replace(/@/g, '')
+      return normalizedScreenName
+    },
+  },
 }
 </script>
 
 <style scoped>
+.basic-text-color {
+  color: black;
+}
+
 .important-notice {
   color: crimson;
   font-weight: bold;
