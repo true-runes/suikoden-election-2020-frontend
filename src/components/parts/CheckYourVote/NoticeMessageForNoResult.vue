@@ -11,12 +11,12 @@
 
         <div>
           <v-alert
-            color="#A9A9A9"
+            color="#dcdcdc"
             dark
             icon="mdi-information-outline"
             border="left"
           >
-            <ul>
+            <ul class="basic-text-color">
               <li>
                 投票期間は以下のとおりです
                 <ul>
@@ -87,6 +87,10 @@ export default {
 </script>
 
 <style scoped>
+.basic-text-color {
+  color: black;
+}
+
 .important-notice {
   color: crimson;
   font-weight: bold;

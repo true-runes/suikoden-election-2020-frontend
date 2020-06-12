@@ -26,6 +26,15 @@
           </v-list-item>
         </router-link>
 
+        <router-link :to="{ name: 'how-to-vote' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-vote</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>投票方法</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
         <router-link :to="{ name: 'check-your-vote' }">
           <v-list-item>
             <v-list-item-icon>
