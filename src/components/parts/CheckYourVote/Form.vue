@@ -61,6 +61,7 @@ export default {
         .get(apiUri, {
           params: {
             screen_name: this.screenName,
+            env: process.env.VUE_APP_DEPLOY_ENVIRONMENT,
           },
         })
         .then(response => (this.yourTweetRecords = response.data))
