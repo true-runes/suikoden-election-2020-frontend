@@ -159,7 +159,7 @@
                   )"
                   :key="characterName"
                 >
-                  <td>{{ characterName }}</td>
+                  <td>？？？</td>
                   <td>
                     <div v-if="isEntryClosed(numberOfVote)">
                       <span
