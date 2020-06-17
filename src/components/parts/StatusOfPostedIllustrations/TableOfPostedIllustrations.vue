@@ -3,14 +3,8 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          開票イラストについて
+          開票イラスト応募状況
         </p>
-
-        <p class="title text--primary font-weight-bold">
-          ※募集についての説明は、ページの最後にございます
-        </p>
-
-        <p class="headline text--primary font-weight-bold">応募状況</p>
 
         <div v-if="false">
           <v-layout justify-center>
