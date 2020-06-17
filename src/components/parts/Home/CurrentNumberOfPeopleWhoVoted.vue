@@ -3,9 +3,9 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          現在までの投票者数（速報値・DM除く）
+          投票者数（速報値・DM除く）
         </p>
-        <div v-if="showLoadingAnime">
+        <div v-if="false">
           <v-layout justify-center>
             <img :src="spinnerAnimeUrl" />
           </v-layout>
@@ -27,8 +27,9 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 import VoteStatusChart from '@/components/parts/Home/VoteStatusChart'
+import numberOfVotes from '@/static/numberOfVotes.json'
 
 export default {
   components: {
@@ -38,7 +39,7 @@ export default {
     return {
       valid: true,
       screenName: '',
-      yourTweetRecords: {},
+      yourTweetRecords: numberOfVotes,
       showLoadingAnime: true,
       isShown: false,
       // Strictry, ("'@' + screen_name" <= 16)
@@ -46,20 +47,20 @@ export default {
       spinnerAnimeUrl: this.$store.state.spinnerAnimeUrl,
     }
   },
-  beforeCreate() {
-    this.showLoadingAnime = true
-    this.isShown = true
+  // beforeCreate() {
+  //   this.showLoadingAnime = true
+  //   this.isShown = true
 
-    const apiUri = process.env.VUE_APP_CHECK_YOUR_VOTE_API
-    axios
-      .get(apiUri, {
-        params: {
-          screen_name: 'sample',
-        },
-      })
-      .then(response => (this.yourTweetRecords = response.data))
-      .then(() => (this.showLoadingAnime = false))
-  },
+  //   const apiUri = process.env.VUE_APP_CHECK_YOUR_VOTE_API
+  //   axios
+  //     .get(apiUri, {
+  //       params: {
+  //         screen_name: 'sample',
+  //       },
+  //     })
+  //     .then(response => (this.yourTweetRecords = response.data))
+  //     .then(() => (this.showLoadingAnime = false))
+  // },
 }
 </script>
 <style scoped></style>

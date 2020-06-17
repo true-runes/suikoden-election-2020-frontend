@@ -3,7 +3,9 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">結果発表</p>
-        <div class="text--primary">2020年6月20日（土）18:00（予定）</div>
+        <p class="headline text--primary font-weight-bold">
+          2020年6月20日（土）18:00（予定）
+        </p>
       </v-col>
     </v-row>
   </div>
