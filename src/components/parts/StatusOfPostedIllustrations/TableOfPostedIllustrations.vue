@@ -3,8 +3,73 @@
     <v-row>
       <v-col cols="12">
         <p class="headline text--primary font-weight-bold">
-          開票イラストについて
+          開票イラスト応募状況
         </p>
+
+        <div v-if="false">
+          <v-layout justify-center>
+            <img :src="spinnerAnimeUrl" />
+          </v-layout>
+        </div>
+        <div v-else>
+          <p class="title text--primary font-weight-bold">総応募数</p>
+          <ul class="no-list-dot">
+            <li>{{ sumOfPostedIllustrations() }} 枚</li>
+          </ul>
+
+          <br />
+
+          <p class="title text--primary font-weight-bold">総キャラ数</p>
+          <ul class="no-list-dot">
+            <li>{{ sumOfPostedIllustrationCharacters() }}</li>
+          </ul>
+
+          <br />
+
+          <p class="title text--primary font-weight-bold">
+            現在までに応募を頂いたキャラ
+          </p>
+          <v-simple-table>
+            <template>
+              <thead>
+                <tr>
+                  <th class="text-left subtitle-1 font-weight-bold">
+                    キャラ名
+                  </th>
+                  <th class="text-left subtitle-1 font-weight-bold">応募数</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr
+                  v-for="(numberOfVote,
+                  characterName) in sortedPostedIllustrationsStatus(
+                    this.postedIllustrationsStatus,
+                  )"
+                  :key="characterName"
+                >
+                  <td>？？？</td>
+                  <td>
+                    <div v-if="isEntryClosed(numberOfVote)">
+                      <span
+                        :class="{
+                          'is-entry-closed': true,
+                          'font-weight-bold': true,
+                        }"
+                        >{{ numberOfVoteWithNotion(numberOfVote) }}</span
+                      >
+                    </div>
+                    <div v-else>{{ numberOfVoteWithNotion(numberOfVote) }}</div>
+                  </td>
+                </tr>
+              </tbody>
+            </template>
+          </v-simple-table>
+        </div>
+
+        <br />
+        <v-divider></v-divider>
+        <br />
 
         <p class="title text--primary font-weight-bold">募集概要</p>
         <ul>
@@ -117,78 +182,19 @@
             </ul>
           </li>
         </ul>
-
-        <br />
-        <v-divider></v-divider>
-        <br />
-
-        <p class="headline text--primary font-weight-bold">応募状況</p>
-
-        <div v-if="showLoadingAnime">
-          <v-layout justify-center>
-            <img :src="spinnerAnimeUrl" />
-          </v-layout>
-        </div>
-        <div v-else>
-          <p class="title text--primary font-weight-bold">総応募数</p>
-          <ul class="no-list-dot">
-            <li>{{ sumOfPostedIllustrations() }} 枚</li>
-          </ul>
-
-          <br />
-
-          <p class="title text--primary font-weight-bold">
-            現在までに応募を頂いたキャラ
-          </p>
-          <v-simple-table>
-            <template>
-              <thead>
-                <tr>
-                  <th class="text-left subtitle-1 font-weight-bold">
-                    キャラ名
-                  </th>
-                  <th class="text-left subtitle-1 font-weight-bold">応募数</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr
-                  v-for="(numberOfVote,
-                  characterName) in sortedPostedIllustrationsStatus(
-                    this.postedIllustrationsStatus,
-                  )"
-                  :key="characterName"
-                >
-                  <td>？？？</td>
-                  <td>
-                    <div v-if="isEntryClosed(numberOfVote)">
-                      <span
-                        :class="{
-                          'is-entry-closed': true,
-                          'font-weight-bold': true,
-                        }"
-                        >{{ numberOfVoteWithNotion(numberOfVote) }}</span
-                      >
-                    </div>
-                    <div v-else>{{ numberOfVoteWithNotion(numberOfVote) }}</div>
-                  </td>
-                </tr>
-              </tbody>
-            </template>
-          </v-simple-table>
-        </div>
       </v-col>
     </v-row>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
+import numberOfIllustrations from '@/static/numberOfIllustrations.json'
 
 export default {
   data: function() {
     return {
-      postedIllustrationsStatus: null,
+      postedIllustrationsStatus: numberOfIllustrations,
       currentStatusInfo: [],
       showLoadingAnime: true,
       spinnerAnimeUrl: this.$store.state.spinnerAnimeUrl,
@@ -200,6 +206,9 @@ export default {
         (sum, element) => sum + element,
         0,
       )
+    },
+    sumOfPostedIllustrationCharacters: function() {
+      return Object.keys(this.postedIllustrationsStatus).length
     },
     // TODO: リファクタリング
     isEntryClosed: function(numberOfVote) {
@@ -238,12 +247,12 @@ export default {
       return sortedPostedIllustrationsStatus
     },
   },
-  beforeCreate() {
-    axios
-      .get(process.env.VUE_APP_POSTED_ILLUSTRATIONS_STATUS_API)
-      .then(response => (this.postedIllustrationsStatus = response.data))
-      .then(() => (this.showLoadingAnime = false))
-  },
+  // beforeCreate() {
+  //   axios
+  //     .get(process.env.VUE_APP_POSTED_ILLUSTRATIONS_STATUS_API)
+  //     .then(response => (this.postedIllustrationsStatus = response.data))
+  //     .then(() => (this.showLoadingAnime = false))
+  // },
 }
 </script>
 
