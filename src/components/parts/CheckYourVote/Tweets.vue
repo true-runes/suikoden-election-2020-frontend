@@ -11,7 +11,7 @@
             <!-- If not using 'String' cast, 'Warning' occurs in DevTools -->
             <Tweet
               :id="String(yourTweetIdNumber)"
-              error-message="※削除されたツイートがあります"
+              error-message="※削除された、または非公開ツイートがあります"
             >
               <div class="spinner-for-waiting">
                 <img :src="spinnerAnimeUrl" />
