@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home'
 import StatusOfPostedIllustrations from '@/views/StatusOfPostedIllustrations'
 import CheckYourVote from '@/views/CheckYourVote'
+import Staff from '@/views/Staff'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false
@@ -24,6 +25,11 @@ export default new VueRouter({
       path: '/check_your_vote',
       name: 'check-your-vote',
       component: CheckYourVote,
+    },
+    {
+      path: '/staff',
+      name: 'staff',
+      component: Staff,
     },
     {
       path: '*',
