@@ -53,6 +53,15 @@
           </v-list-item>
         </a>
 
+        <router-link :to="{ name: 'staff' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-account-heart</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>スタッフ</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
         <a href="https://election-2019.suikoden.info/" target="_blank">
           <v-list-item>
             <v-list-item-icon>
