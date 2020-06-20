@@ -74,7 +74,9 @@ export default {
 
     this.rankingData.forEach(rankRecord => {
       rankRecord['percentageOfVote'] = this.calculatePercentage(
-        (rankRecord['numberOfVote'] / 5642) * 100,
+        (rankRecord['numberOfVote'] /
+          this.numberOfVoteByYear(this.yearOfThisTab)) *
+          100,
       )
     })
   },
