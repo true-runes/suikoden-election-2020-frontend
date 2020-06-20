@@ -26,6 +26,15 @@
           </v-list-item>
         </router-link>
 
+        <router-link :to="{ name: 'past-events' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-book-open-page-variant</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>過去の総選挙結果</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
         <router-link :to="{ name: 'check-your-vote' }">
           <v-list-item>
             <v-list-item-icon>
@@ -41,24 +50,6 @@
               <v-icon>mdi-image-edit</v-icon>
             </v-list-item-icon>
             <v-list-item-title>開票イラストについて</v-list-item-title>
-          </v-list-item>
-        </router-link>
-
-        <router-link :to="{ name: 'past-events' }">
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-book-open-page-variant</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>過去の総選挙結果</v-list-item-title>
-          </v-list-item>
-        </router-link>
-
-        <router-link :to="{ name: 'staff' }">
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-account-heart</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>スタッフ</v-list-item-title>
           </v-list-item>
         </router-link>
 
@@ -109,6 +100,15 @@
             <v-list-item-title>幻水総選挙 2016</v-list-item-title>
           </v-list-item>
         </a>
+
+        <router-link :to="{ name: 'staff' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-account-heart</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>スタッフ</v-list-item-title>
+          </v-list-item>
+        </router-link>
       </v-list>
     </v-navigation-drawer>
   </div>
