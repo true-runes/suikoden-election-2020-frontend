@@ -1,38 +1,26 @@
 <template>
   <div>
     <v-container>
-      <ShowResultDate />
-      <Countdown />
-      <CurrentNumberOfPeopleWhoVoted />
-      <!-- <AboutIllustrationsCountingOfVotes /> -->
-      <!-- <VotingTerm /> -->
-      <!-- <LinkToHowToVote /> -->
-      <!-- <SiteAttentions /> -->
+      <GuideForHashtags />
+      <ThisYearResult />
+      <!-- <CurrentNumberOfPeopleWhoVoted /> -->
       <NoteForThisEvent />
     </v-container>
   </div>
 </template>
 
 <script>
-import Countdown from '@/components/parts/Home/Countdown'
-// import VotingTerm from '@/components/parts/Home/VotingTerm'
-import ShowResultDate from '@/components/parts/Home/ShowResultDate'
 import NoteForThisEvent from '@/components/parts/Home/NoteForThisEvent'
-// import SiteAttentions from '@/components/parts/Home/SiteAttentions'
-import CurrentNumberOfPeopleWhoVoted from '@/components/parts/Home/CurrentNumberOfPeopleWhoVoted'
-// import LinkToHowToVote from '@/components/parts/Home/LinkToHowToVote'
-// import AboutIllustrationsCountingOfVotes from '@/components/parts/Home/AboutIllustrationsCountingOfVotes'
+// import CurrentNumberOfPeopleWhoVoted from '@/components/parts/Home/CurrentNumberOfPeopleWhoVoted'
+import ThisYearResult from '@/components/parts/Home/ThisYearResult'
+import GuideForHashtags from '@/components/parts/Home/GuideForHashtags'
 
 export default {
   components: {
-    Countdown,
-    // VotingTerm,
-    ShowResultDate,
     NoteForThisEvent,
-    // SiteAttentions,
-    CurrentNumberOfPeopleWhoVoted,
-    // LinkToHowToVote,
-    // AboutIllustrationsCountingOfVotes,
+    // CurrentNumberOfPeopleWhoVoted,
+    ThisYearResult,
+    GuideForHashtags,
   },
   mounted: () => {
     document.title = 'ホーム - 幻水総選挙 2020'
