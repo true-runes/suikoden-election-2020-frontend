@@ -53,6 +53,15 @@
           </v-list-item>
         </a>
 
+        <router-link :to="{ name: 'past-events' }">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-book-open-page-variant</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>過去の選挙結果</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
         <router-link :to="{ name: 'staff' }">
           <v-list-item>
             <v-list-item-icon>

@@ -1,0 +1,1442 @@
+[
+  {
+    "rank": 1,
+    "characterName": "幻水1主人公【坊ちゃん】",
+    "numberOfVote": 764
+  },
+  {
+    "rank": 2,
+    "characterName": "ルック",
+    "numberOfVote": 562
+  },
+  {
+    "rank": 3,
+    "characterName": "幻水4主人公 【4様】",
+    "numberOfVote": 302
+  },
+  {
+    "rank": 4,
+    "characterName": "テッド",
+    "numberOfVote": 297
+  },
+  {
+    "rank": 5,
+    "characterName": "フリック",
+    "numberOfVote": 245
+  },
+  {
+    "rank": 6,
+    "characterName": "幻水2主人公【2主】",
+    "numberOfVote": 224
+  },
+  {
+    "rank": 7,
+    "characterName": "グレミオ",
+    "numberOfVote": 137
+  },
+  {
+    "rank": 8,
+    "characterName": "ジョウイ・アトレイド（ブライト）",
+    "numberOfVote": 135
+  },
+  {
+    "rank": 8,
+    "characterName": "ビクトール",
+    "numberOfVote": 135
+  },
+  {
+    "rank": 9,
+    "characterName": "ササライ",
+    "numberOfVote": 118
+  },
+  {
+    "rank": 10,
+    "characterName": "ルカ・ブライト",
+    "numberOfVote": 105
+  },
+  {
+    "rank": 11,
+    "characterName": "ナッシュ・ラトキエ（クロービス）",
+    "numberOfVote": 103
+  },
+  {
+    "rank": 12,
+    "characterName": "マイクロトフ",
+    "numberOfVote": 101
+  },
+  {
+    "rank": 13,
+    "characterName": "ナナミ",
+    "numberOfVote": 85
+  },
+  {
+    "rank": 14,
+    "characterName": "クライブ",
+    "numberOfVote": 78
+  },
+  {
+    "rank": 15,
+    "characterName": "シーナ",
+    "numberOfVote": 77
+  },
+  {
+    "rank": 16,
+    "characterName": "シエラ・ミケーネ",
+    "numberOfVote": 74
+  },
+  {
+    "rank": 17,
+    "characterName": "ゲオルグ・プライム",
+    "numberOfVote": 69
+  },
+  {
+    "rank": 18,
+    "characterName": "カミュー",
+    "numberOfVote": 67
+  },
+  {
+    "rank": 19,
+    "characterName": "シード",
+    "numberOfVote": 63
+  },
+  {
+    "rank": 20,
+    "characterName": "トーマス",
+    "numberOfVote": 58
+  },
+  {
+    "rank": 21,
+    "characterName": "フッチ",
+    "numberOfVote": 56
+  },
+  {
+    "rank": 22,
+    "characterName": "カイル",
+    "numberOfVote": 55
+  },
+  {
+    "rank": 23,
+    "characterName": "シュウ",
+    "numberOfVote": 54
+  },
+  {
+    "rank": 24,
+    "characterName": "スタリオン",
+    "numberOfVote": 53
+  },
+  {
+    "rank": 25,
+    "characterName": "幻水5主人公【王子】",
+    "numberOfVote": 49
+  },
+  {
+    "rank": 26,
+    "characterName": "ビッキー",
+    "numberOfVote": 44
+  },
+  {
+    "rank": 27,
+    "characterName": "キニスン",
+    "numberOfVote": 43
+  },
+  {
+    "rank": 28,
+    "characterName": "シーザー・シルバーバーグ",
+    "numberOfVote": 38
+  },
+  {
+    "rank": 29,
+    "characterName": "リウ・シエン",
+    "numberOfVote": 32
+  },
+  {
+    "rank": 30,
+    "characterName": "ゲド",
+    "numberOfVote": 31
+  },
+  {
+    "rank": 31,
+    "characterName": "クルガン",
+    "numberOfVote": 30
+  },
+  {
+    "rank": 31,
+    "characterName": "ヒューゴ",
+    "numberOfVote": 30
+  },
+  {
+    "rank": 32,
+    "characterName": "ユーバー",
+    "numberOfVote": 29
+  },
+  {
+    "rank": 33,
+    "characterName": "クラウス・ウィンダミア",
+    "numberOfVote": 27
+  },
+  {
+    "rank": 33,
+    "characterName": "クリス・ライトフェロー",
+    "numberOfVote": 27
+  },
+  {
+    "rank": 33,
+    "characterName": "マッシュ・シルバーバーグ",
+    "numberOfVote": 27
+  },
+  {
+    "rank": 34,
+    "characterName": "カスミ",
+    "numberOfVote": 24
+  },
+  {
+    "rank": 34,
+    "characterName": "セラ",
+    "numberOfVote": 24
+  },
+  {
+    "rank": 34,
+    "characterName": "ヤム・クー",
+    "numberOfVote": 24
+  },
+  {
+    "rank": 35,
+    "characterName": "パーシヴァル・フロイライン",
+    "numberOfVote": 23
+  },
+  {
+    "rank": 35,
+    "characterName": "リヒャルト",
+    "numberOfVote": 23
+  },
+  {
+    "rank": 36,
+    "characterName": "アルベルト・シルバーバーグ",
+    "numberOfVote": 22
+  },
+  {
+    "rank": 37,
+    "characterName": "ティアクライス主人公【団長】",
+    "numberOfVote": 21
+  },
+  {
+    "rank": 37,
+    "characterName": "キリル",
+    "numberOfVote": 21
+  },
+  {
+    "rank": 37,
+    "characterName": "ジャック",
+    "numberOfVote": 21
+  },
+  {
+    "rank": 37,
+    "characterName": "スノウ・フィンガーフート",
+    "numberOfVote": 21
+  },
+  {
+    "rank": 38,
+    "characterName": "ゼフォン",
+    "numberOfVote": 19
+  },
+  {
+    "rank": 39,
+    "characterName": "ザムザ",
+    "numberOfVote": 18
+  },
+  {
+    "rank": 39,
+    "characterName": "ロイ",
+    "numberOfVote": 18
+  },
+  {
+    "rank": 40,
+    "characterName": "ベルクート",
+    "numberOfVote": 17
+  },
+  {
+    "rank": 41,
+    "characterName": "テンプルトン",
+    "numberOfVote": 16
+  },
+  {
+    "rank": 41,
+    "characterName": "ハンフリー・ミンツ",
+    "numberOfVote": 16
+  },
+  {
+    "rank": 42,
+    "characterName": "シグレ",
+    "numberOfVote": 15
+  },
+  {
+    "rank": 42,
+    "characterName": "ムクムク",
+    "numberOfVote": 15
+  },
+  {
+    "rank": 43,
+    "characterName": "ゲンゲン",
+    "numberOfVote": 14
+  },
+  {
+    "rank": 43,
+    "characterName": "ワカバ",
+    "numberOfVote": 14
+  },
+  {
+    "rank": 44,
+    "characterName": "オデッサ・シルバーバーグ",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 44,
+    "characterName": "フィッチャー",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 44,
+    "characterName": "ミアキス",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 44,
+    "characterName": "ロベルト",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 45,
+    "characterName": "アルド",
+    "numberOfVote": 12
+  },
+  {
+    "rank": 45,
+    "characterName": "ジョー軍曹",
+    "numberOfVote": 12
+  },
+  {
+    "rank": 45,
+    "characterName": "テンガアール",
+    "numberOfVote": 12
+  },
+  {
+    "rank": 45,
+    "characterName": "ペシュメルガ",
+    "numberOfVote": 12
+  },
+  {
+    "rank": 46,
+    "characterName": "カミーユ",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "キカ",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "ハーヴェイ",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "ヘルムート",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "ルセリナ・バロウズ",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 47,
+    "characterName": "クレオ",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 47,
+    "characterName": "シロ",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 47,
+    "characterName": "チャコ",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 47,
+    "characterName": "リッチモンド",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 47,
+    "characterName": "ルビィ",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 48,
+    "characterName": "サスケ",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "フリード・Y",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ボルス・レッドラム",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ラミン",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "レイチェル",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 49,
+    "characterName": "オウラン",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "オロク",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "カーン・マリィ",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "ギゼル",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "ジェレミー",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "リドリー",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 50,
+    "characterName": "グレンシール",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ケネス",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "コーネル",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "タイ・ホー",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "フー・スー・ルー",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ミリー",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "紡がれし百年の時主人公【紡主】",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 51,
+    "characterName": "エース",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "エルザ",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "シグルド",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ソロン・ジー",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "タカム",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "トロイ",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ヒックス",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ムバル",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ユージン",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ルクレティア・メルセス",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 52,
+    "characterName": "アスアド",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "アルシュタート・ファレナス",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ジーン",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "シドニア",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ジョアン",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "トラヴィス",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "トルワド・アルブレク",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "メグ",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ユウ",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ユーラム・バロウズ",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ヨシュア・レーベンハイト",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ラン",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "リオン",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "リヒャルトのお父さん",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "レーヴン",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "レックナート",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 53,
+    "characterName": "アップル",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "からくり丸",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "サロメ・ハラス",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ジェス",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "シド",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "シャバック",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ジル・ブライト",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ジンバ（ワイアット・ライトフェロー）",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ツヴァイク",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ディルク",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "デューク",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ネクロード",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "バーツ",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "パーン",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "バレリア",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ハンナ",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "フェリド",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ミルイヒ・オッペンハイマー",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ムーア",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ヤール",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ランディス",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "レギウス",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "炎の英雄",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 54,
+    "characterName": "アレニア",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "アレン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "アンネリー",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "イク",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ヴィルヘルム",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "エリン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "キバ・ウィンダミア",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "キルキス",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ケフレン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ザヴィド",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ジェイル",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ししのはた",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "シュラ・ヴァルヤ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "シュン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "シルビナ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "セシル",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "タル",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "チープー",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ツァウベルン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ディオス",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "トリスタン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ハルト",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "フレッド・マクシミリアン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ポーラ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ミューラー",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ミレイ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ラハル",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ラマダ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ララクル",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "リィナ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "リムスレーア・ファレナス",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "リリィ・ペンドラゴン",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ロディ",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "天命牙双",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 55,
+    "characterName": "アイリ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "アイン・ジード",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "アクセル",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "カズラー",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ガレオン",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "キルケ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "クイーン",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "クインシー",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "グリフィス",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "クロデキルド",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ゲッシュ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "コノン",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ザジ・キュイロス",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ジーノ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "シメオン",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ジョルジュ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ゼラセ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "テオ・マクドール",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "デュパ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "テレーズ・ワイズメル",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "バズバ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ハスワール",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ヒクサク",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ビッチャム",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "フェザー",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ブライト",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "フレア",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "フレデグンド",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ボナパルト",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ボブ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "マナリル",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ミツバ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "メース",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ユン",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ヨシノ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ヨベル",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "リューグ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "リュセリ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ルオ・タウ",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 56,
+    "characterName": "アイリーン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アグネス",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アトリ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アドリアンヌ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アナベル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アマラリク",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アンダルク・ベルグマン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "イザベル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ウェンデル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ウラガン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "エイダ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "エッジ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "エミリー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "エレノア・シルバーバーグ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "カイ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "カシム・ハジル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ガスパー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "カタリナ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ガボチャ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "からくり丸Z",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ギジェリガー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "キリィ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "クーガ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "グランマイヤー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "クロン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ケリィ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ゲンオウ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "コルネリオ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "サギリ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "サナ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ザハーク",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "サンチェス",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "スウ・ジン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "スノウの腕",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "スバル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "セイラ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ゼガイ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ソニア・シューレン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "トウタ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ドミンゲスJr.",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "トモ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ニコ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ネリス",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ハイ・ヨー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ハヅキ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ハンス",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "フーバー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "フンギ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ペギィ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ベル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ベルナデット・イーガン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "マクマク",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "マティアス",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ムーイー",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "メルヴィル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "モーリン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ユーリ・ラトキエ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ユラ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ヨーン",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ラウド",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ラフトフリート",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "リキマル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "リタ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ルシア",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ルル",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "レット",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "レネフェリアス13世",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ロウハク",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ローレライ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ロック",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ロドリク",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ワタリ",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "幻想水滸伝6が発売される可能性",
+    "numberOfVote": 1
+  }
+]
