@@ -22,7 +22,6 @@
         :search="search"
         locale="ja"
         mobile-breakpoint="0"
-        items-per-page="50"
         :footer-props="{ itemsPerPageOptions: [50, -1] }"
       ></v-data-table>
     </v-col>
