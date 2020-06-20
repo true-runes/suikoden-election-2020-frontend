@@ -44,21 +44,12 @@
           </v-list-item>
         </router-link>
 
-        <a href="https://min.togetter.com/kStoOfK" target="_blank">
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-vote</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>投票方法（外部サイト）</v-list-item-title>
-          </v-list-item>
-        </a>
-
         <router-link :to="{ name: 'past-events' }">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-book-open-page-variant</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>過去の選挙結果</v-list-item-title>
+            <v-list-item-title>過去の総選挙結果</v-list-item-title>
           </v-list-item>
         </router-link>
 
@@ -70,6 +61,15 @@
             <v-list-item-title>スタッフ</v-list-item-title>
           </v-list-item>
         </router-link>
+
+        <a href="https://min.togetter.com/kStoOfK" target="_blank">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-vote</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>投票方法（外部サイト）</v-list-item-title>
+          </v-list-item>
+        </a>
 
         <a href="https://election-2019.suikoden.info/" target="_blank">
           <v-list-item>
