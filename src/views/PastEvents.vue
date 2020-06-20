@@ -14,7 +14,7 @@ export default {
     EachYearTab,
   },
   mounted: () => {
-    document.title = '過去の選挙結果 - 幻水総選挙 2020'
+    document.title = '過去の総選挙結果 - 幻水総選挙 2020'
   },
 }
 </script>
