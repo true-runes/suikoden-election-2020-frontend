@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col cols="12">
-      <h1 class="mb-4">{{ yearOfThisTab }}年の選挙結果</h1>
+      <h1 class="mb-4">{{ yearOfThisTab }}年の総選挙結果</h1>
       <h2>投票人数</h2>
       <h3 class="mb-4">{{ numberOfPeopleWhoVotedByYear(yearOfThisTab) }} 人</h3>
       <h2>投票数</h2>
