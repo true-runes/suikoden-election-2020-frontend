@@ -1,0 +1,982 @@
+[
+  {
+    "rank": 1,
+    "characterName": "ルック",
+    "numberOfZenfuriVoters": 114,
+    "numberOfZenfuriVotes": 342,
+    "percentageByAllZenfuri": "5.73%"
+  },
+  {
+    "rank": 2,
+    "characterName": "幻水1主人公（坊ちゃん）",
+    "numberOfZenfuriVoters": 100,
+    "numberOfZenfuriVotes": 300,
+    "percentageByAllZenfuri": "5.03%"
+  },
+  {
+    "rank": 3,
+    "characterName": "テッド",
+    "numberOfZenfuriVoters": 70,
+    "numberOfZenfuriVotes": 210,
+    "percentageByAllZenfuri": "3.52%"
+  },
+  {
+    "rank": 4,
+    "characterName": "幻水4主人公（4様）",
+    "numberOfZenfuriVoters": 65,
+    "numberOfZenfuriVotes": 195,
+    "percentageByAllZenfuri": "3.27%"
+  },
+  {
+    "rank": 5,
+    "characterName": "フリック",
+    "numberOfZenfuriVoters": 59,
+    "numberOfZenfuriVotes": 177,
+    "percentageByAllZenfuri": "2.96%"
+  },
+  {
+    "rank": 6,
+    "characterName": "幻水2主人公（2主）",
+    "numberOfZenfuriVoters": 47,
+    "numberOfZenfuriVotes": 141,
+    "percentageByAllZenfuri": "2.36%"
+  },
+  {
+    "rank": 7,
+    "characterName": "ビクトール",
+    "numberOfZenfuriVoters": 31,
+    "numberOfZenfuriVotes": 93,
+    "percentageByAllZenfuri": "1.56%"
+  },
+  {
+    "rank": 8,
+    "characterName": "ジョウイ・アトレイド（ブライト）",
+    "numberOfZenfuriVoters": 23,
+    "numberOfZenfuriVotes": 69,
+    "percentageByAllZenfuri": "1.16%"
+  },
+  {
+    "rank": 9,
+    "characterName": "ササライ",
+    "numberOfZenfuriVoters": 20,
+    "numberOfZenfuriVotes": 60,
+    "percentageByAllZenfuri": "1.01%"
+  },
+  {
+    "rank": 10,
+    "characterName": "グレミオ",
+    "numberOfZenfuriVoters": 19,
+    "numberOfZenfuriVotes": 57,
+    "percentageByAllZenfuri": "0.95%"
+  },
+  {
+    "rank": 11,
+    "characterName": "クライブ",
+    "numberOfZenfuriVoters": 17,
+    "numberOfZenfuriVotes": 51,
+    "percentageByAllZenfuri": "0.85%"
+  },
+  {
+    "rank": 11,
+    "characterName": "シーナ",
+    "numberOfZenfuriVoters": 17,
+    "numberOfZenfuriVotes": 51,
+    "percentageByAllZenfuri": "0.85%"
+  },
+  {
+    "rank": 11,
+    "characterName": "スタリオン",
+    "numberOfZenfuriVoters": 17,
+    "numberOfZenfuriVotes": 51,
+    "percentageByAllZenfuri": "0.85%"
+  },
+  {
+    "rank": 12,
+    "characterName": "ナッシュ・ラトキエ（クロービス）",
+    "numberOfZenfuriVoters": 16,
+    "numberOfZenfuriVotes": 48,
+    "percentageByAllZenfuri": "0.80%"
+  },
+  {
+    "rank": 12,
+    "characterName": "ナナミ",
+    "numberOfZenfuriVoters": 16,
+    "numberOfZenfuriVotes": 48,
+    "percentageByAllZenfuri": "0.80%"
+  },
+  {
+    "rank": 12,
+    "characterName": "マイクロトフ",
+    "numberOfZenfuriVoters": 16,
+    "numberOfZenfuriVotes": 48,
+    "percentageByAllZenfuri": "0.80%"
+  },
+  {
+    "rank": 13,
+    "characterName": "カミュー",
+    "numberOfZenfuriVoters": 15,
+    "numberOfZenfuriVotes": 45,
+    "percentageByAllZenfuri": "0.75%"
+  },
+  {
+    "rank": 13,
+    "characterName": "ルカ・ブライト",
+    "numberOfZenfuriVoters": 15,
+    "numberOfZenfuriVotes": 45,
+    "percentageByAllZenfuri": "0.75%"
+  },
+  {
+    "rank": 14,
+    "characterName": "キニスン",
+    "numberOfZenfuriVoters": 13,
+    "numberOfZenfuriVotes": 39,
+    "percentageByAllZenfuri": "0.65%"
+  },
+  {
+    "rank": 14,
+    "characterName": "シード",
+    "numberOfZenfuriVoters": 13,
+    "numberOfZenfuriVotes": 39,
+    "percentageByAllZenfuri": "0.65%"
+  },
+  {
+    "rank": 14,
+    "characterName": "シュウ",
+    "numberOfZenfuriVoters": 13,
+    "numberOfZenfuriVotes": 39,
+    "percentageByAllZenfuri": "0.65%"
+  },
+  {
+    "rank": 14,
+    "characterName": "フッチ",
+    "numberOfZenfuriVoters": 13,
+    "numberOfZenfuriVotes": 39,
+    "percentageByAllZenfuri": "0.65%"
+  },
+  {
+    "rank": 15,
+    "characterName": "ゲオルグ・プライム",
+    "numberOfZenfuriVoters": 12,
+    "numberOfZenfuriVotes": 36,
+    "percentageByAllZenfuri": "0.60%"
+  },
+  {
+    "rank": 16,
+    "characterName": "幻水5主人公（王子）",
+    "numberOfZenfuriVoters": 9,
+    "numberOfZenfuriVotes": 27,
+    "percentageByAllZenfuri": "0.45%"
+  },
+  {
+    "rank": 17,
+    "characterName": "ユーバー",
+    "numberOfZenfuriVoters": 8,
+    "numberOfZenfuriVotes": 24,
+    "percentageByAllZenfuri": "0.40%"
+  },
+  {
+    "rank": 18,
+    "characterName": "ゲド",
+    "numberOfZenfuriVoters": 7,
+    "numberOfZenfuriVotes": 21,
+    "percentageByAllZenfuri": "0.35%"
+  },
+  {
+    "rank": 18,
+    "characterName": "シーザー・シルバーバーグ",
+    "numberOfZenfuriVoters": 7,
+    "numberOfZenfuriVotes": 21,
+    "percentageByAllZenfuri": "0.35%"
+  },
+  {
+    "rank": 18,
+    "characterName": "ビッキー",
+    "numberOfZenfuriVoters": 7,
+    "numberOfZenfuriVotes": 21,
+    "percentageByAllZenfuri": "0.35%"
+  },
+  {
+    "rank": 19,
+    "characterName": "クラウス・ウィンダミア",
+    "numberOfZenfuriVoters": 6,
+    "numberOfZenfuriVotes": 18,
+    "percentageByAllZenfuri": "0.30%"
+  },
+  {
+    "rank": 19,
+    "characterName": "スノウ・フィンガーフート",
+    "numberOfZenfuriVoters": 6,
+    "numberOfZenfuriVotes": 18,
+    "percentageByAllZenfuri": "0.30%"
+  },
+  {
+    "rank": 19,
+    "characterName": "ゼフォン",
+    "numberOfZenfuriVoters": 6,
+    "numberOfZenfuriVotes": 18,
+    "percentageByAllZenfuri": "0.30%"
+  },
+  {
+    "rank": 19,
+    "characterName": "ヤム・クー",
+    "numberOfZenfuriVoters": 6,
+    "numberOfZenfuriVotes": 18,
+    "percentageByAllZenfuri": "0.30%"
+  },
+  {
+    "rank": 20,
+    "characterName": "アルベルト・シルバーバーグ",
+    "numberOfZenfuriVoters": 5,
+    "numberOfZenfuriVotes": 15,
+    "percentageByAllZenfuri": "0.25%"
+  },
+  {
+    "rank": 20,
+    "characterName": "ジャック",
+    "numberOfZenfuriVoters": 5,
+    "numberOfZenfuriVotes": 15,
+    "percentageByAllZenfuri": "0.25%"
+  },
+  {
+    "rank": 20,
+    "characterName": "セラ",
+    "numberOfZenfuriVoters": 5,
+    "numberOfZenfuriVotes": 15,
+    "percentageByAllZenfuri": "0.25%"
+  },
+  {
+    "rank": 20,
+    "characterName": "トーマス",
+    "numberOfZenfuriVoters": 5,
+    "numberOfZenfuriVotes": 15,
+    "percentageByAllZenfuri": "0.25%"
+  },
+  {
+    "rank": 20,
+    "characterName": "ネクロード",
+    "numberOfZenfuriVoters": 5,
+    "numberOfZenfuriVotes": 15,
+    "percentageByAllZenfuri": "0.25%"
+  },
+  {
+    "rank": 20,
+    "characterName": "マッシュ・シルバーバーグ",
+    "numberOfZenfuriVoters": 5,
+    "numberOfZenfuriVotes": 15,
+    "percentageByAllZenfuri": "0.25%"
+  },
+  {
+    "rank": 21,
+    "characterName": "カイル",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "キリル",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "クリン",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "シエラ・ミケーネ",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "テンプルトン",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "ハンフリー・ミンツ",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "ヒューゴ",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "ビュクセ",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "ユージン",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "リウ・シエン",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 21,
+    "characterName": "リヒャルト",
+    "numberOfZenfuriVoters": 4,
+    "numberOfZenfuriVotes": 12,
+    "percentageByAllZenfuri": "0.20%"
+  },
+  {
+    "rank": 22,
+    "characterName": "カスミ",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 22,
+    "characterName": "ツヴァイク",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 22,
+    "characterName": "トロイ",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 22,
+    "characterName": "マルコ",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 22,
+    "characterName": "ラミン",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 22,
+    "characterName": "ルセリナ・バロウズ",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 22,
+    "characterName": "炎の英雄",
+    "numberOfZenfuriVoters": 3,
+    "numberOfZenfuriVotes": 9,
+    "percentageByAllZenfuri": "0.15%"
+  },
+  {
+    "rank": 23,
+    "characterName": "アヤメ",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "アルド",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "オロク",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ギゼル・ゴドウィン",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "クルガン",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ザムザ",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "サロメ・ハラス",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ジェス",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ソロン・ジー",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "テンガアール",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "パーン",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ベルクート",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ムーア",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ムクムク",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "メグ",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "リィナ",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "レックナート",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 23,
+    "characterName": "ロベルト",
+    "numberOfZenfuriVoters": 2,
+    "numberOfZenfuriVotes": 6,
+    "percentageByAllZenfuri": "0.10%"
+  },
+  {
+    "rank": 24,
+    "characterName": "アップル",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "アルシュタート・ファレナス",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "アレニア",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "イク",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "エッジ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "エリン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "エルザ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "カーン・マリィ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "カマンドール",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "カミーユ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "カレン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "キカ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "クリス・ライトフェロー",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "クレオ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ケネス",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ケンジ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "コーネル",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "サスケ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ジェレミー",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シグレ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ししのはた",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シド",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シドニア",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シメオン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シモーヌ・ベルドリッチ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シュラ・ヴァルヤ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ジョルジュ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ジル・ブライト",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "シロ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "スノウの腕",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "タイ・ホー",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "タカム",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "チャンポ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ティアクライス主人公（団長）",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ディルク",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "テレーズ・ワイズメル",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ハーヴェイ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "パーシヴァル・フロイライン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ハンナ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "フー・スー・ルー",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "フェリド",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "フレッド・マクシミリアン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "フンギ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ペシュメルガ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ポーラ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ボルス・レッドラム",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ミアキス",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ミリー",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "メルーン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ユウ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ユーラム・バロウズ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ヨシュア・レーベンハイト",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ラハル",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ラマダ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ララクル",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ランディス",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "リヒャルトのお父さん",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "リュセリ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "レイチェル",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "レーヴン",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "レギウス",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "レレイ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ロイ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ローレライ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ロディ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  },
+  {
+    "rank": 24,
+    "characterName": "ワカバ",
+    "numberOfZenfuriVoters": 1,
+    "numberOfZenfuriVotes": 3,
+    "percentageByAllZenfuri": "0.05%"
+  }
+]
