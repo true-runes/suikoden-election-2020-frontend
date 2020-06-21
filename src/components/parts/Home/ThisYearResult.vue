@@ -45,13 +45,14 @@ export default {
 
     this.rankingData.forEach(rankRecord => {
       rankRecord['percentageOfVote'] = this.calculatePercentage(
+        // TODO: ハードコーディングをやめる（テンプレート部も同様）
         (rankRecord['numberOfVote'] / 5970) * 100,
       )
     })
   },
   methods: {
     calculatePercentage: function(number) {
-      // 小数点第二位まで
+      // 小数点第二位まで（ただし、 0 は消えるのでパディングすべき）
       return Math.floor(number * Math.pow(10, 2)) / Math.pow(10, 2)
     },
   },
