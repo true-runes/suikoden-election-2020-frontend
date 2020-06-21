@@ -36,7 +36,7 @@ export default new Vuex.Store({
       { text: 'キャラ名', value: 'characterName' },
       { text: '全振り者数', value: 'numberOfZenfuriVoters' },
       { text: '全振り票数', value: 'numberOfZenfuriVotes' },
-      { text: '全振り者・票率', value: 'percentageByAllZenfuri' },
+      { text: 'キャラ内全振り率', value: 'percentageByEachCharacter' },
     ],
   },
   mutations: {},
