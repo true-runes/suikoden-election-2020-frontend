@@ -27,6 +27,17 @@ export default new Vuex.Store({
       { text: '票数', value: 'numberOfVote' },
       { text: '得票率 (%)', value: 'percentageOfVote' },
     ],
+    zenfuriRankingHeaders2020: [
+      {
+        text: '順位',
+        align: 'start',
+        value: 'rank',
+      },
+      { text: 'キャラ名', value: 'characterName' },
+      { text: '全振り者数', value: 'numberOfZenfuriVoters' },
+      { text: '全振り票数', value: 'numberOfZenfuriVotes' },
+      { text: '全振り者・票率', value: 'percentageByAllZenfuri' },
+    ],
   },
   mutations: {},
   getters: {},

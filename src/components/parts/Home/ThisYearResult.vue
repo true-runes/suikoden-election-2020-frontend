@@ -1,59 +1,54 @@
 <template>
-  <v-row>
-    <v-col cols="12">
-      <h1 class="mb-4">幻水総選挙 2020 結果</h1>
-      <h2>投票人数</h2>
-      <h3 class="mb-4">1994 人（ツイート 1772 人、DM 222 人）</h3>
-      <h2>投票数</h2>
-      <h3 class="mb-4">5970 票（ツイート 5304 票、DM 666 票）</h3>
+  <div>
+    <v-container>
+      <v-tabs v-model="tab">
+        <v-tab v-for="item in items" :key="item">
+          {{ itemNameToJapaneseName(item) }}
+        </v-tab>
+      </v-tabs>
 
-      <h2>順位</h2>
-
-      <v-text-field
-        v-model="search"
-        append-icon="mdi-magnify"
-        label="キャラ名検索"
-        single-line
-      ></v-text-field>
-
-      <v-data-table
-        :headers="headers"
-        :items="rankingData"
-        :search="search"
-        locale="ja"
-        mobile-breakpoint="0"
-        :footer-props="{ itemsPerPageOptions: [50, -1] }"
-      ></v-data-table>
-    </v-col>
-  </v-row>
+      <v-tabs-items v-model="tab">
+        <v-tab-item v-for="item in items" :key="item">
+          <v-container>
+            <v-row>
+              <div v-if="item == 'vote-result'">
+                <ThisYearVoteResult />
+              </div>
+              <div v-else-if="item == 'zenfuri-result'">
+                <ThisYearZenfuriResult />
+              </div>
+            </v-row>
+          </v-container>
+        </v-tab-item>
+      </v-tabs-items>
+    </v-container>
+  </div>
 </template>
 
 <script>
-import voteResult2020 from '@/static/voteResult2020.json'
+import ThisYearVoteResult from '@/components/parts/Home/ThisYearVoteResult'
+import ThisYearZenfuriResult from '@/components/parts/Home/ThisYearZenfuriResult'
 
 export default {
+  components: {
+    ThisYearVoteResult,
+    ThisYearZenfuriResult,
+  },
   data() {
     return {
-      search: '',
-      headers: this.$store.state.voteRankingHeaders2020,
-      rankingData: [],
+      tab: null,
+      items: ['vote-result', 'zenfuri-result'],
     }
   },
-  // TODO: 順番に依存してしまっている
-  created: function() {
-    this.rankingData = voteResult2020
-
-    this.rankingData.forEach(rankRecord => {
-      rankRecord['percentageOfVote'] = this.calculatePercentage(
-        // TODO: ハードコーディングをやめる（テンプレート部も同様）
-        (rankRecord['numberOfVote'] / 5970) * 100,
-      )
-    })
-  },
   methods: {
-    calculatePercentage: function(number) {
-      // 小数点第二位まで（ただし、 0 は消えるのでパディングすべき）
-      return Math.floor(number * Math.pow(10, 2)) / Math.pow(10, 2)
+    // TODO: リファクタリング
+    itemNameToJapaneseName: function(itemName) {
+      if (itemName === 'vote-result') {
+        return '幻水総選挙 2020 結果'
+      }
+      if (itemName === 'zenfuri-result') {
+        return '幻水総選挙 2020 全振り結果'
+      }
     },
   },
 }
