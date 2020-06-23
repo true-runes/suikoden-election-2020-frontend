@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home'
 import StatusOfPostedIllustrations from '@/views/StatusOfPostedIllustrations'
 import CheckYourVote from '@/views/CheckYourVote'
+import Staff from '@/views/Staff'
+import PastEvents from '@/views/PastEvents'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false
@@ -24,6 +26,16 @@ export default new VueRouter({
       path: '/check_your_vote',
       name: 'check-your-vote',
       component: CheckYourVote,
+    },
+    {
+      path: '/staff',
+      name: 'staff',
+      component: Staff,
+    },
+    {
+      path: '/past_events',
+      name: 'past-events',
+      component: PastEvents,
     },
     {
       path: '*',
