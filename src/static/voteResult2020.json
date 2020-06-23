@@ -1,0 +1,1868 @@
+[
+  {
+    "rank": 1,
+    "characterName": "幻水1主人公（坊ちゃん）",
+    "characterNameEn": "Tir",
+    "numberOfVote": 596
+  },
+  {
+    "rank": 2,
+    "characterName": "ルック",
+    "characterNameEn": "Luc",
+    "numberOfVote": 495
+  },
+  {
+    "rank": 3,
+    "characterName": "テッド",
+    "characterNameEn": "Ted",
+    "numberOfVote": 401
+  },
+  {
+    "rank": 4,
+    "characterName": "幻水4主人公（4様）",
+    "characterNameEn": "Lazlo",
+    "numberOfVote": 311
+  },
+  {
+    "rank": 5,
+    "characterName": "フリック",
+    "characterNameEn": "Flik",
+    "numberOfVote": 291
+  },
+  {
+    "rank": 6,
+    "characterName": "幻水2主人公（2主）",
+    "characterNameEn": "Riou",
+    "numberOfVote": 235
+  },
+  {
+    "rank": 7,
+    "characterName": "ビクトール",
+    "characterNameEn": "Viktor",
+    "numberOfVote": 180
+  },
+  {
+    "rank": 8,
+    "characterName": "ジョウイ・アトレイド（ブライト）",
+    "characterNameEn": "Jowy Atreides",
+    "numberOfVote": 144
+  },
+  {
+    "rank": 9,
+    "characterName": "グレミオ",
+    "characterNameEn": "Gremio",
+    "numberOfVote": 135
+  },
+  {
+    "rank": 10,
+    "characterName": "ナナミ",
+    "characterNameEn": "Nanami",
+    "numberOfVote": 117
+  },
+  {
+    "rank": 11,
+    "characterName": "マイクロトフ",
+    "characterNameEn": "Miklotov",
+    "numberOfVote": 102
+  },
+  {
+    "rank": 11,
+    "characterName": "ルカ・ブライト",
+    "characterNameEn": "Luca Blight",
+    "numberOfVote": 102
+  },
+  {
+    "rank": 12,
+    "characterName": "クライブ",
+    "characterNameEn": "Clive",
+    "numberOfVote": 100
+  },
+  {
+    "rank": 13,
+    "characterName": "ササライ",
+    "characterNameEn": "Sasarai",
+    "numberOfVote": 97
+  },
+  {
+    "rank": 14,
+    "characterName": "カミュー",
+    "characterNameEn": "Camus",
+    "numberOfVote": 95
+  },
+  {
+    "rank": 15,
+    "characterName": "ナッシュ・ラトキエ（クロービス）",
+    "characterNameEn": "Nash Latkje",
+    "numberOfVote": 91
+  },
+  {
+    "rank": 16,
+    "characterName": "シード",
+    "characterNameEn": "Seed",
+    "numberOfVote": 82
+  },
+  {
+    "rank": 17,
+    "characterName": "ゲオルグ・プライム",
+    "characterNameEn": "Georg Prime",
+    "numberOfVote": 79
+  },
+  {
+    "rank": 18,
+    "characterName": "シュウ",
+    "characterNameEn": "Shu",
+    "numberOfVote": 71
+  },
+  {
+    "rank": 18,
+    "characterName": "シーナ",
+    "characterNameEn": "Sheena",
+    "numberOfVote": 71
+  },
+  {
+    "rank": 19,
+    "characterName": "スタリオン",
+    "characterNameEn": "Stallion",
+    "numberOfVote": 69
+  },
+  {
+    "rank": 20,
+    "characterName": "幻水5主人公（王子）",
+    "characterNameEn": "Freyjadour",
+    "numberOfVote": 68
+  },
+  {
+    "rank": 21,
+    "characterName": "フッチ",
+    "characterNameEn": "Futch",
+    "numberOfVote": 63
+  },
+  {
+    "rank": 22,
+    "characterName": "シエラ・ミケーネ",
+    "characterNameEn": "Sierra Mikain",
+    "numberOfVote": 62
+  },
+  {
+    "rank": 23,
+    "characterName": "キニスン",
+    "characterNameEn": "Kinnison",
+    "numberOfVote": 54
+  },
+  {
+    "rank": 24,
+    "characterName": "トーマス",
+    "characterNameEn": "Thomas",
+    "numberOfVote": 48
+  },
+  {
+    "rank": 25,
+    "characterName": "カイル",
+    "characterNameEn": "Kyle",
+    "numberOfVote": 43
+  },
+  {
+    "rank": 26,
+    "characterName": "ゲド",
+    "characterNameEn": "Geddoe",
+    "numberOfVote": 40
+  },
+  {
+    "rank": 27,
+    "characterName": "クリス・ライトフェロー",
+    "characterNameEn": "Chris Lightfellow",
+    "numberOfVote": 37
+  },
+  {
+    "rank": 27,
+    "characterName": "ビッキー",
+    "characterNameEn": "Viki",
+    "numberOfVote": 37
+  },
+  {
+    "rank": 27,
+    "characterName": "ヤム・クー",
+    "characterNameEn": "Yam Koo",
+    "numberOfVote": 37
+  },
+  {
+    "rank": 28,
+    "characterName": "セラ",
+    "characterNameEn": "Sarah",
+    "numberOfVote": 36
+  },
+  {
+    "rank": 29,
+    "characterName": "アルベルト・シルバーバーグ",
+    "characterNameEn": "Albert Silverberg",
+    "numberOfVote": 35
+  },
+  {
+    "rank": 30,
+    "characterName": "クルガン",
+    "characterNameEn": "Culgan",
+    "numberOfVote": 32
+  },
+  {
+    "rank": 31,
+    "characterName": "クラウス・ウィンダミア",
+    "characterNameEn": "Klaus Windamier",
+    "numberOfVote": 31
+  },
+  {
+    "rank": 31,
+    "characterName": "シーザー・シルバーバーグ",
+    "characterNameEn": "Caesar Silverberg",
+    "numberOfVote": 31
+  },
+  {
+    "rank": 32,
+    "characterName": "スノウ・フィンガーフート",
+    "characterNameEn": "Snowe Vingerhut",
+    "numberOfVote": 30
+  },
+  {
+    "rank": 32,
+    "characterName": "ユーバー",
+    "characterNameEn": "Yuber",
+    "numberOfVote": 30
+  },
+  {
+    "rank": 33,
+    "characterName": "ヒューゴ",
+    "characterNameEn": "Hugo",
+    "numberOfVote": 29
+  },
+  {
+    "rank": 34,
+    "characterName": "カスミ",
+    "characterNameEn": "Kasumi",
+    "numberOfVote": 26
+  },
+  {
+    "rank": 35,
+    "characterName": "キリル",
+    "characterNameEn": "Kyril",
+    "numberOfVote": 24
+  },
+  {
+    "rank": 35,
+    "characterName": "マッシュ・シルバーバーグ",
+    "characterNameEn": "Mathiu Silverberg",
+    "numberOfVote": 24
+  },
+  {
+    "rank": 35,
+    "characterName": "リヒャルト",
+    "characterNameEn": "Richard",
+    "numberOfVote": 24
+  },
+  {
+    "rank": 36,
+    "characterName": "ネクロード",
+    "characterNameEn": "Nekurodo",
+    "numberOfVote": 23
+  },
+  {
+    "rank": 37,
+    "characterName": "ジャック",
+    "characterNameEn": "Jacques",
+    "numberOfVote": 22
+  },
+  {
+    "rank": 37,
+    "characterName": "ティアクライス主人公（団長）",
+    "characterNameEn": "Sieg",
+    "numberOfVote": 22
+  },
+  {
+    "rank": 38,
+    "characterName": "テンガアール",
+    "characterNameEn": "Tengaar",
+    "numberOfVote": 20
+  },
+  {
+    "rank": 38,
+    "characterName": "ロイ",
+    "characterNameEn": "Roy",
+    "numberOfVote": 20
+  },
+  {
+    "rank": 39,
+    "characterName": "ペシュメルガ",
+    "characterNameEn": "Pesmerga",
+    "numberOfVote": 19
+  },
+  {
+    "rank": 39,
+    "characterName": "ミアキス",
+    "characterNameEn": "Miakis",
+    "numberOfVote": 19
+  },
+  {
+    "rank": 39,
+    "characterName": "ムクムク",
+    "characterNameEn": "Mukumuku",
+    "numberOfVote": 19
+  },
+  {
+    "rank": 39,
+    "characterName": "リウ・シエン",
+    "characterNameEn": "Liu-Shen",
+    "numberOfVote": 19
+  },
+  {
+    "rank": 39,
+    "characterName": "炎の英雄",
+    "characterNameEn": "Flame Champion",
+    "numberOfVote": 19
+  },
+  {
+    "rank": 40,
+    "characterName": "オデッサ・シルバーバーグ",
+    "characterNameEn": "Odessa Silverberg",
+    "numberOfVote": 18
+  },
+  {
+    "rank": 40,
+    "characterName": "ザムザ",
+    "characterNameEn": "Zamza",
+    "numberOfVote": 18
+  },
+  {
+    "rank": 40,
+    "characterName": "シロ",
+    "characterNameEn": "Shiro",
+    "numberOfVote": 18
+  },
+  {
+    "rank": 40,
+    "characterName": "ゼフォン",
+    "characterNameEn": "Zephon",
+    "numberOfVote": 18
+  },
+  {
+    "rank": 41,
+    "characterName": "テンプルトン",
+    "characterNameEn": "Templeton",
+    "numberOfVote": 17
+  },
+  {
+    "rank": 41,
+    "characterName": "パーシヴァル・フロイライン",
+    "characterNameEn": "Percival Fraulein",
+    "numberOfVote": 17
+  },
+  {
+    "rank": 42,
+    "characterName": "クレオ",
+    "characterNameEn": "Cleo",
+    "numberOfVote": 16
+  },
+  {
+    "rank": 43,
+    "characterName": "アルド",
+    "characterNameEn": "Aldo",
+    "numberOfVote": 15
+  },
+  {
+    "rank": 43,
+    "characterName": "ビュクセ",
+    "characterNameEn": "Buchse",
+    "numberOfVote": 15
+  },
+  {
+    "rank": 43,
+    "characterName": "ルセリナ・バロウズ",
+    "characterNameEn": "Luserina Barows",
+    "numberOfVote": 15
+  },
+  {
+    "rank": 44,
+    "characterName": "ハンフリー・ミンツ",
+    "characterNameEn": "Humphrey Mintz",
+    "numberOfVote": 14
+  },
+  {
+    "rank": 44,
+    "characterName": "ベルクート",
+    "characterNameEn": "Belcoot",
+    "numberOfVote": 14
+  },
+  {
+    "rank": 44,
+    "characterName": "リオン",
+    "characterNameEn": "Lyon",
+    "numberOfVote": 14
+  },
+  {
+    "rank": 45,
+    "characterName": "キカ",
+    "characterNameEn": "Kika",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 45,
+    "characterName": "クリン",
+    "characterNameEn": "Krin",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 45,
+    "characterName": "サロメ・ハラス",
+    "characterNameEn": "Salome",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 45,
+    "characterName": "トロイ",
+    "characterNameEn": "Troy",
+    "numberOfVote": 13
+  },
+  {
+    "rank": 46,
+    "characterName": "カミーユ",
+    "characterNameEn": "Camille",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "セシル",
+    "characterNameEn": "Cecile",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "ラミン",
+    "characterNameEn": "Ramin",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 46,
+    "characterName": "レイチェル",
+    "characterNameEn": "Rachel",
+    "numberOfVote": 11
+  },
+  {
+    "rank": 47,
+    "characterName": "カーン・マリィ",
+    "characterNameEn": "Kahn Marley",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 47,
+    "characterName": "ハーヴェイ",
+    "characterNameEn": "Hervey",
+    "numberOfVote": 10
+  },
+  {
+    "rank": 48,
+    "characterName": "ギゼル・ゴドウィン",
+    "characterNameEn": "Gizel Godwin",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "サスケ",
+    "characterNameEn": "Sasuke",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ジェス",
+    "characterNameEn": "Jess",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ヒックス",
+    "characterNameEn": "Hix",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ヤール",
+    "characterNameEn": "Yahr",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ユージン",
+    "characterNameEn": "Eugene",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ユーラム・バロウズ",
+    "characterNameEn": "Euram Barows",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "ワカバ",
+    "characterNameEn": "Wakaba",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 48,
+    "characterName": "紡がれし百年の時主人公（紡主）",
+    "characterNameEn": "Hero (The Woven Web of a Century)",
+    "numberOfVote": 9
+  },
+  {
+    "rank": 49,
+    "characterName": "シグレ",
+    "characterNameEn": "Shigure",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "シド",
+    "characterNameEn": "Sid",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "ジル・ブライト",
+    "characterNameEn": "Jillia Blight",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "フェリド",
+    "characterNameEn": "Ferido",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "ルビィ",
+    "characterNameEn": "Rubi",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 49,
+    "characterName": "ロベルト",
+    "characterNameEn": "Roberto",
+    "numberOfVote": 8
+  },
+  {
+    "rank": 50,
+    "characterName": "エルザ",
+    "characterNameEn": "Elza",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ケネス",
+    "characterNameEn": "Keneth",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "シメオン",
+    "characterNameEn": "Simeon",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ジェレミー",
+    "characterNameEn": "Jeremy",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ジョー軍曹",
+    "characterNameEn": "Sgt. Joe",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ソロン・ジー",
+    "characterNameEn": "Solon Gee",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ヘルムート",
+    "characterNameEn": "Helmut",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "ボルス・レッドラム",
+    "characterNameEn": "Borus Redrum",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "メグ",
+    "characterNameEn": "Meg",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "レギウス",
+    "characterNameEn": "Regius",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 50,
+    "characterName": "レックナート",
+    "characterNameEn": "Leknaat",
+    "numberOfVote": 7
+  },
+  {
+    "rank": 51,
+    "characterName": "アップル",
+    "characterNameEn": "Apple",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "キバ・ウィンダミア",
+    "characterNameEn": "Kiba Windamier",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "クインシー",
+    "characterNameEn": "Quincy",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "シドニア",
+    "characterNameEn": "Sydonia",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "タイ・ホー",
+    "characterNameEn": "Tai Ho",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "トラヴィス",
+    "characterNameEn": "Travis",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "パーン",
+    "characterNameEn": "Pahn",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ポーラ",
+    "characterNameEn": "Paula",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "マルコ",
+    "characterNameEn": "Marco",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ミリー",
+    "characterNameEn": "Millie",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 51,
+    "characterName": "ルクレティア・メルセス",
+    "characterNameEn": "Lucretia Merces",
+    "numberOfVote": 6
+  },
+  {
+    "rank": 52,
+    "characterName": "オウラン",
+    "characterNameEn": "Oulan",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "オロク",
+    "characterNameEn": "Orok",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "カレン",
+    "characterNameEn": "Karen",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "キルキス",
+    "characterNameEn": "Kirkis",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "キルケ",
+    "characterNameEn": "Kirkis",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "コーネル",
+    "characterNameEn": "Connell",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "サイアリーズ",
+    "characterNameEn": "Saiarizu",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ジェイル",
+    "characterNameEn": "Jale",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ジーン",
+    "characterNameEn": "Jeane",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "スノウの腕",
+    "characterNameEn": "Snowe's arm",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "トリスタン",
+    "characterNameEn": "Trishtan",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "バレリア",
+    "characterNameEn": "Valeria",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "フー・スー・ルー",
+    "characterNameEn": "Fu Su Lu",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ムーア",
+    "characterNameEn": "Mua",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ユウ",
+    "characterNameEn": "Yu",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ランディス",
+    "characterNameEn": "Landis",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "リッチモンド",
+    "characterNameEn": "Richmond",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "リヒャルトのお父さん",
+    "characterNameEn": "Richard's father",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ロディ",
+    "characterNameEn": "Rody",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 52,
+    "characterName": "ローレライ",
+    "characterNameEn": "Lorelai",
+    "numberOfVote": 5
+  },
+  {
+    "rank": 53,
+    "characterName": "アイリ",
+    "characterNameEn": "Eilie",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "アヤメ",
+    "characterNameEn": "Ayame",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "アルシュタート・ファレナス",
+    "characterNameEn": "Arshtat Falenas",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "カマンドール",
+    "characterNameEn": "Kamandol",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "キャザリー",
+    "characterNameEn": "Cathari",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "グレンシール",
+    "characterNameEn": "Grenseal",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ザジ・キュイロス",
+    "characterNameEn": "Zaj Quilous",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "シュラ・ヴァルヤ",
+    "characterNameEn": "Shula Valya",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "シュン",
+    "characterNameEn": "Shoon",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ジョアン",
+    "characterNameEn": "Juan",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "タル",
+    "characterNameEn": "Tal",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ツァウベルン",
+    "characterNameEn": "Tsaubern",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "テレーズ・ワイズメル",
+    "characterNameEn": "Teresa Wisemail",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ディオス",
+    "characterNameEn": "Dios",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "バーツ",
+    "characterNameEn": "Barts",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "フィッチャー",
+    "characterNameEn": "Fitcha",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "フリード・Y",
+    "characterNameEn": "Freed Yamamoto",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "フレア",
+    "characterNameEn": "Flare",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "フレッド・マクシミリアン",
+    "characterNameEn": "Fred",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ホウアン",
+    "characterNameEn": "Huan",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "マナリル",
+    "characterNameEn": "Manaril",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ムバル",
+    "characterNameEn": "Mubal",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ヨシュア・レーベンハイト",
+    "characterNameEn": "Joshua Levenheit",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "ララクル",
+    "characterNameEn": "Lalacle",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "リキマル",
+    "characterNameEn": "Rikimaru",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 53,
+    "characterName": "レーヴン",
+    "characterNameEn": "Raven",
+    "numberOfVote": 4
+  },
+  {
+    "rank": 54,
+    "characterName": "ししのはた",
+    "characterNameEn": "Mercenary Fortress Flag",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "アナベル",
+    "characterNameEn": "Anabelle",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "アレニア",
+    "characterNameEn": "Alenia",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "アレン",
+    "characterNameEn": "Alen",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "イク",
+    "characterNameEn": "Iku",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "エッジ",
+    "characterNameEn": "Edge",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "エリン",
+    "characterNameEn": "Erin",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "エース",
+    "characterNameEn": "Ace",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "キリィ",
+    "characterNameEn": "Killey",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "クイーン",
+    "characterNameEn": "Queen",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "クロミミ",
+    "characterNameEn": "Kuromimi",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ケンジ",
+    "characterNameEn": "Kenji",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "コノン",
+    "characterNameEn": "Konon",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ゴン",
+    "characterNameEn": "Gon",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ザハーク",
+    "characterNameEn": "Zahaku",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "シモーヌ・ベルドリッチ",
+    "characterNameEn": "Simone Verdricci",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ジョルジュ",
+    "characterNameEn": "Georges",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ワイアット・ライトフェロー（ジンバ）",
+    "characterNameEn": "Wyatt Lightfellow (Jimba)",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ゼラセ",
+    "characterNameEn": "Zerase",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "タカム",
+    "characterNameEn": "Takamu",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "チャンポ",
+    "characterNameEn": "Champo",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "チープー",
+    "characterNameEn": "Chiepoo",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ツヴァイク",
+    "characterNameEn": "Zweig",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "テオ・マクドール",
+    "characterNameEn": "Teo McDohl",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ディルク",
+    "characterNameEn": "Dirk",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "トルワド・アルブレク",
+    "characterNameEn": "Torwald Albarek",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ハンナ",
+    "characterNameEn": "Hanna",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "フレデグンド",
+    "characterNameEn": "Fredegund",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "フンギ",
+    "characterNameEn": "Funghi",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ミルイヒ・オッペンハイマー",
+    "characterNameEn": "Milich Oppenheimer",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ミレイ",
+    "characterNameEn": "Millay",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "メルーン",
+    "characterNameEn": "Meroon",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ユン",
+    "characterNameEn": "Yun",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ラハル",
+    "characterNameEn": "Rahal",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ラマダ",
+    "characterNameEn": "Ramada",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "リィナ",
+    "characterNameEn": "Rina",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "リュセリ",
+    "characterNameEn": "Luseri",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ルシア",
+    "characterNameEn": "Lucia",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "レレイ",
+    "characterNameEn": "Lelei",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 54,
+    "characterName": "ロッテ",
+    "characterNameEn": "Lotte",
+    "numberOfVote": 3
+  },
+  {
+    "rank": 55,
+    "characterName": "アイリーン",
+    "characterNameEn": "Eileen",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "アイン・ジード",
+    "characterNameEn": "Ain Gide",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "アクセル",
+    "characterNameEn": "Axel",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "アトリ",
+    "characterNameEn": "Atrie",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "アンネリー",
+    "characterNameEn": "Annallee",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "エイダ",
+    "characterNameEn": "Ayda",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "カイ",
+    "characterNameEn": "Kai",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "カシム・ハジル",
+    "characterNameEn": "Kasim Hazil",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "カズラー",
+    "characterNameEn": "Savage Sprout",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "クロデキルド",
+    "characterNameEn": "Chrodechild",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "グランマイヤー",
+    "characterNameEn": "Granmeyer",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "グリフィス",
+    "characterNameEn": "Griffith",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ゲンゲン",
+    "characterNameEn": "Gengen",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "サンチェス",
+    "characterNameEn": "Sanchez",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "シグルド",
+    "characterNameEn": "Sigurd",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "シャバック",
+    "characterNameEn": "Xebec",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "シルビナ",
+    "characterNameEn": "Sylvina",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ジーノ",
+    "characterNameEn": "Gino",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "チャコ",
+    "characterNameEn": "Chaco",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "トウタ",
+    "characterNameEn": "Tuta",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ネリス",
+    "characterNameEn": "Nelis",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ハスワール",
+    "characterNameEn": "Haswar",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ハルト",
+    "characterNameEn": "Haruto",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ヒクサク",
+    "characterNameEn": "Hikusaak",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ビーアーガ",
+    "characterNameEn": "Biarga",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ボブ",
+    "characterNameEn": "Bob",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "リドリー",
+    "characterNameEn": "Ridley",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "リムスレーア・ファレナス",
+    "characterNameEn": "Lymsleia Falenas",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ルオ・タウ",
+    "characterNameEn": "Luo-Tao",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 55,
+    "characterName": "ロルフ",
+    "characterNameEn": "Rolf Raud",
+    "numberOfVote": 2
+  },
+  {
+    "rank": 56,
+    "characterName": "からくり丸Z",
+    "characterNameEn": "Gadget Z",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アスアド",
+    "characterNameEn": "Asad",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アドリアンヌ",
+    "characterNameEn": "Adrienne",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アメリア",
+    "characterNameEn": "Ameria",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "アンダルク・ベルグマン",
+    "characterNameEn": "Andarc Bergman",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "イザベル",
+    "characterNameEn": "Isabel",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "イワノフ",
+    "characterNameEn": "Ivanov",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ウィンディ",
+    "characterNameEn": "Windy",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "エルンスト",
+    "characterNameEn": "Ernst",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "エレノア・シルバーバーグ",
+    "characterNameEn": "Elenor Silverberg",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ガボチャ",
+    "characterNameEn": "Gabocha",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "キンバリー",
+    "characterNameEn": "Kimberley",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "クリス・ライトフェローの馬",
+    "characterNameEn": "Chris' horse",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "クロン",
+    "characterNameEn": "Qlon",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ゲン",
+    "characterNameEn": "Gen",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "コゴロウ",
+    "characterNameEn": "Kogoro",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "コルネリオ",
+    "characterNameEn": "Cornelio",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "コロク",
+    "characterNameEn": "Koroku",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ゴルドー",
+    "characterNameEn": "Gorudo",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "サナ",
+    "characterNameEn": "Sana",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ザヴィド",
+    "characterNameEn": "Zaveed",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "シウス",
+    "characterNameEn": "Cius",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "シスカ",
+    "characterNameEn": "Sisuca",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "シュトルテハイム・ラインバッハ3世",
+    "characterNameEn": "Schtolteheim Reinbach III",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ジュエル",
+    "characterNameEn": "Jewel",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ジョセフィーヌ（ユマ・ヴァルヤ）",
+    "characterNameEn": "Josephine (Yuma Valya)",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ジークフリード",
+    "characterNameEn": "Sigfried",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "スウ・ジン",
+    "characterNameEn": "Suu Jin",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ゼガイ",
+    "characterNameEn": "Zegai",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "タキ",
+    "characterNameEn": "Taki",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ダイン",
+    "characterNameEn": "Dinn",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "テスラ",
+    "characterNameEn": "Tesla",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "デスモンド",
+    "characterNameEn": "Desmond",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "デュパ",
+    "characterNameEn": "Dupa",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "デューカス",
+    "characterNameEn": "Ducas",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "デューク",
+    "characterNameEn": "Duke",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ドロモン",
+    "characterNameEn": "Dromon",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ニナ",
+    "characterNameEn": "Nina",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ノア",
+    "characterNameEn": "Noah",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ハレック",
+    "characterNameEn": "Hallec",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "バルカス",
+    "characterNameEn": "Varkas",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "パブロ",
+    "characterNameEn": "Pablo",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ヒナ",
+    "characterNameEn": "Hina",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ビッチャム",
+    "characterNameEn": "Beecham",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ビャクレン",
+    "characterNameEn": "Byakuren",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "フェレッカ",
+    "characterNameEn": "Felecca",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "フヨウ",
+    "characterNameEn": "Fuyo",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "フー・タンチェン",
+    "characterNameEn": "Fu Tan Chen",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ブライト",
+    "characterNameEn": "Bright",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ペック",
+    "characterNameEn": "Peck",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ベルナデット・イーガン",
+    "characterNameEn": "Bernadette Egan",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "マキシン",
+    "characterNameEn": "Maxine",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "マクマク",
+    "characterNameEn": "Makumaku",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "マティアス",
+    "characterNameEn": "Mathias",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "マリカ",
+    "characterNameEn": "Marica",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ミクミク",
+    "characterNameEn": "Mikumiku",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ミズラック",
+    "characterNameEn": "Misrach",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ミツバ",
+    "characterNameEn": "Mitsuba",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ミューラー",
+    "characterNameEn": "Mueller",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ミリオンアイ",
+    "characterNameEn": "Million Eye",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ミーナ",
+    "characterNameEn": "Mina",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ムルーン",
+    "characterNameEn": "Muroon",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ムーイー",
+    "characterNameEn": "Mouie",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ムーロ",
+    "characterNameEn": "Muro",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "メクメク",
+    "characterNameEn": "Mekumeku",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "メル",
+    "characterNameEn": "Mel",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "メルヴィル",
+    "characterNameEn": "Melville",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "モアナ",
+    "characterNameEn": "Moana",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "モーガン",
+    "characterNameEn": "Morgan",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ユーリ・ラトキエ",
+    "characterNameEn": "Julie Latkje",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "リコ",
+    "characterNameEn": "Rico",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ルイス・キファーソン",
+    "characterNameEn": "Louis Keeferson",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ルル",
+    "characterNameEn": "Lulu",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "レネフェリアス13世",
+    "characterNameEn": "Leopherias XIII",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ロニー・ベル",
+    "characterNameEn": "Ronnie Bell",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ワタリ",
+    "characterNameEn": "Watari",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ヴァンサン・ド・ブール",
+    "characterNameEn": "Vincent de Boule",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "ヴィルヘルム",
+    "characterNameEn": "Wilhelm",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "幻想水滸伝6",
+    "characterNameEn": "Suikoden VI",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "星辰剣",
+    "characterNameEn": "Star Dragon Sword",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "村山吉隆さん",
+    "characterNameEn": "Mr. Yoshitaka Murayama",
+    "numberOfVote": 1
+  },
+  {
+    "rank": 56,
+    "characterName": "霧の船の導者",
+    "characterNameEn": "Fog Ship Guide",
+    "numberOfVote": 1
+  }
+]
