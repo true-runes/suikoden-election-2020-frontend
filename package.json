@@ -16,7 +16,7 @@
     "dayjs": "^1.8.33",
     "vue": "^2.6.11",
     "vue-chartjs": "^3.5.0",
-    "vue-router": "^3.4.2",
+    "vue-router": "^3.4.3",
     "vue-tweet-embed": "^2.4.0",
     "vuetify": "^2.3.8",
     "vuex": "^3.5.1"
