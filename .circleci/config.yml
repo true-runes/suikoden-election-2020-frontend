@@ -8,10 +8,11 @@ jobs:
       name: node/default
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm test
+      # https://circleci.com/developer/orbs/orb/circleci/node
+      - node/install-packages:
+          cache-path: ~/project/node_modules
+          override-ci-command: yarn install
+      # - run: yarn test
       - slack/notify:
           # channel: channel_id
           # color: '#42e2f4'
