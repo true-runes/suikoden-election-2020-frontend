@@ -15,7 +15,7 @@ jobs:
             - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
             - yarn-packages-v1-{{ .Branch }}-
             - yarn-packages-v1-
-      - install_npm_packages: yarn install
+      - run: yarn install
       - save_cache:
           paths:
             - ~/.cache/yarn
