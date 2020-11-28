@@ -9,9 +9,21 @@ jobs:
     steps:
       - checkout
       # https://circleci.com/developer/orbs/orb/circleci/node
-      - node/install-packages:
-          cache-path: ~/project/node_modules
-          override-ci-command: yarn install
+      - restore_cache:
+          keys:
+            # when lock file changes, use increasingly general patterns to restore cache
+            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ .Branch }}-
+            - yarn-packages-v1-
+      - run: yarn install
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+          key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      # Does the reason for using the node orb exist?
+      # - node/install-packages:
+          # cache-path: ~/project/node_modules
+          # override-ci-command: yarn install
       # - run: yarn test
       - slack/notify:
           # channel: channel_id
