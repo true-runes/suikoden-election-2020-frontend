@@ -90,7 +90,7 @@
         </a>
 
         <a
-          href="https://corselia.sakura.ne.jp/gensui/sosenkyo_2016_result/index.php"
+          href="https://election-2016.suikoden.info/"
           target="_blank"
         >
           <v-list-item>
