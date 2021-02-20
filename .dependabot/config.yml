@@ -1,0 +1,16 @@
+# https://dependabot.com/docs/config-file/
+version: 1
+update_configs:
+  - package_manager: "javascript"
+    directory: "/"
+    update_schedule: "daily"
+    ignored_updates:
+      - match:
+          dependency_name: "sass-loader"
+          # The version_requirement specifies the versions to ignore.
+          # The range format is specific to the package manager
+          # (e.g., ^1.0.0 for JS, or ~> 2.0 for Ruby).
+          version_requirement: "^10.1.1"
+      # - match:
+          # Wildcards match unlimited arbitrary characters (or none)
+          # dependency_name: "aws*"
