@@ -15,7 +15,7 @@
     "core-js": ">=3.13.1",
     "dayjs": ">=1.10.5",
     "highlight.js": "^10.7.2",
-    "vue": ">=2.6.12",
+    "vue": ">=2.6.14",
     "vue-chartjs": ">=3.5.1",
     "vue-router": ">=3.5.1",
     "vue-tweet-embed": ">=2.4.0",
@@ -38,7 +38,7 @@
     "stylelint": ">=13.13.1",
     "stylelint-config-standard": ">=22.0.0",
     "vue-cli-plugin-vuetify": ">=2.4.1",
-    "vue-template-compiler": ">=2.6.12",
+    "vue-template-compiler": ">=2.6.14",
     "vuetify-loader": ">=1.7.2"
   }
 }
