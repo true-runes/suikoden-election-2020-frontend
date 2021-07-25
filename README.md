@@ -5,3 +5,4 @@
 
 # suikoden-election-2020-frontend
 幻水総選挙2020 フロントエンド
+
