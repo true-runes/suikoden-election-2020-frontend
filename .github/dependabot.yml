@@ -11,4 +11,7 @@ updates:
       - dependency-name: 'sass-loader'
         versions:
           - '>10'
+      - dependency-name: 'sass'
+        versions:
+          - '>1.35'
 
