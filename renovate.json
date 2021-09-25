@@ -15,6 +15,12 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
+        ".*sass.*"
+      ],
+      "automerge": false
+    },
+    {
+      "matchPackagePatterns": [
         "^.*"
       ],
       "automerge": true
