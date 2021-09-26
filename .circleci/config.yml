@@ -2,7 +2,23 @@ version: 2.1
 
 orbs:
   node: circleci/node@4.7.0
+  # SLACK_ACCESS_TOKEN と SLACK_DEFAULT_CHANNEL の設定が必要
+  # SLACK_ACCESS_TOKEN は xoxb-12345-12345-X12345 みたいなやつ
   slack: circleci/slack@4.4.4
+
+commands:
+  circleci_pass:
+    steps:
+      - slack/notify:
+          event: pass
+          # https://github.com/CircleCI-Public/slack-orb/tree/master/src/message_templates
+          template: basic_success_1
+  circleci_fail:
+    steps:
+      - slack/notify:
+          event: fail
+          # https://github.com/CircleCI-Public/slack-orb/tree/master/src/message_templates
+          template: basic_fail_1
 
 jobs:
   build:
@@ -22,8 +38,8 @@ jobs:
           paths:
             - node_modules
           key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
-      - slack/notify:
-          template: basic_on_hold_1
+      - circleci_pass
+      - circleci_fail
 
 workflows:
     build-and-test:
