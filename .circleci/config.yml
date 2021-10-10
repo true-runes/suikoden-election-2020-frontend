@@ -24,6 +24,7 @@ jobs:
   build:
     executor:
       name: node/default
+      tag: '14.18.0'
     steps:
       - checkout
       - restore_cache:
