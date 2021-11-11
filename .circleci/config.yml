@@ -4,7 +4,7 @@ orbs:
   node: circleci/node@4.7.0
   # SLACK_ACCESS_TOKEN と SLACK_DEFAULT_CHANNEL の設定が必要
   # SLACK_ACCESS_TOKEN は xoxb-12345-12345-X12345 みたいなやつ
-  slack: circleci/slack@4.4.4
+  slack: circleci/slack@4.5.0
 
 commands:
   circleci_pass:
