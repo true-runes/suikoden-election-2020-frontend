@@ -20,9 +20,7 @@
             <li>
               投票期間は以下のとおりです
               <ul>
-                <li>
-                  2020/06/12（金）21:00 〜 2020/06/14（日）12:00
-                </li>
+                <li>2020/06/12（金）21:00 〜 2020/06/14（日）12:00</li>
               </ul>
             </li>
             <li>
@@ -30,14 +28,10 @@
                 DM による投票はこのページでチェックすることはできません
               </span>
               <ul>
-                <li>
-                  主催からお送りする投票受付確認の DM をお待ち下さい
-                </li>
+                <li>主催からお送りする投票受付確認の DM をお待ち下さい</li>
               </ul>
             </li>
-            <li>
-              持ち票はお一人様 3票 です
-            </li>
+            <li>持ち票はお一人様 3票 です</li>
             <li>
               ツイートを削除したりアカウントに鍵を付けたりした場合には、チェック結果へ反映されない場合があります
             </li>
@@ -54,7 +48,7 @@
 <script>
 export default {
   name: 'notice-message-for-results',
-  data: function() {
+  data: function () {
     return {
       constantScreenName: this.normalizeScreenName(this.screenName),
     }
@@ -72,10 +66,10 @@ export default {
     },
   },
   methods: {
-    numberOfYourTweets: yourTweetRecords => {
+    numberOfYourTweets: (yourTweetRecords) => {
       return yourTweetRecords['results'].length
     },
-    normalizeScreenName: screenName => {
+    normalizeScreenName: (screenName) => {
       // screenName が不正な値だったら？（replaceメソッドを持たない、Strではなかったら？）
       const normalizedScreenName = screenName.replace(/@/g, '')
       return normalizedScreenName

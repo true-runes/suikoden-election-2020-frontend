@@ -36,7 +36,7 @@ export default {
     NoticeMessageForResults,
   },
   computed: {
-    comcom: function() {
+    comcom: function () {
       return this.screenName
     },
   },

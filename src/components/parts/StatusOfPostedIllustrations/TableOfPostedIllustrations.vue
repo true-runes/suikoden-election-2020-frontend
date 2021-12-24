@@ -42,8 +42,9 @@
 
               <tbody>
                 <tr
-                  v-for="(numberOfVote,
-                  characterName) in sortedPostedIllustrationsStatus(
+                  v-for="(
+                    numberOfVote, characterName
+                  ) in sortedPostedIllustrationsStatus(
                     this.postedIllustrationsStatus,
                   )"
                   :key="characterName"
@@ -192,7 +193,7 @@
 import numberOfIllustrations from '@/static/numberOfIllustrations.json'
 
 export default {
-  data: function() {
+  data: function () {
     return {
       postedIllustrationsStatus: numberOfIllustrations,
       currentStatusInfo: [],
@@ -201,17 +202,17 @@ export default {
     }
   },
   methods: {
-    sumOfPostedIllustrations: function() {
+    sumOfPostedIllustrations: function () {
       return Object.values(this.postedIllustrationsStatus).reduce(
         (sum, element) => sum + element,
         0,
       )
     },
-    sumOfPostedIllustrationCharacters: function() {
+    sumOfPostedIllustrationCharacters: function () {
       return Object.keys(this.postedIllustrationsStatus).length
     },
     // TODO: リファクタリング
-    isEntryClosed: function(numberOfVote) {
+    isEntryClosed: function (numberOfVote) {
       if (numberOfVote >= 4) {
         return true
       } else {
@@ -219,14 +220,14 @@ export default {
       }
     },
     // TODO: リファクタリング
-    numberOfVoteWithNotion: function(numberOfVote) {
+    numberOfVoteWithNotion: function (numberOfVote) {
       if (numberOfVote >= 4) {
         return `${numberOfVote}（終了）`
       } else {
         return numberOfVote
       }
     },
-    sortedPostedIllustrationsStatus: function(postedIllustrationsStatus) {
+    sortedPostedIllustrationsStatus: function (postedIllustrationsStatus) {
       const chatacterNames = Object.keys(postedIllustrationsStatus)
       const entriesPostedIllustrationsStatus = Object.entries(
         postedIllustrationsStatus,
@@ -236,8 +237,8 @@ export default {
       )
 
       const sortedPostedIllustrationsStatus = {}
-      sortedCharacterNames.forEach(character => {
-        entriesPostedIllustrationsStatus.forEach(entry => {
+      sortedCharacterNames.forEach((character) => {
+        entriesPostedIllustrationsStatus.forEach((entry) => {
           if (character === entry[0]) {
             sortedPostedIllustrationsStatus[character] = entry[1]
           }

@@ -32,7 +32,7 @@ export default {
     Tweets,
     NoticeForYourStatus,
   },
-  data: function() {
+  data: function () {
     return {
       spinnerAnimeUrl: this.$store.state.spinnerAnimeUrl,
     }
@@ -61,14 +61,14 @@ export default {
   },
   methods: {
     // TODO: Add more validations (The same tweet id number, tweet_public? === false ...)
-    yourTweetIdNumbers: yourTweetRecords => {
+    yourTweetIdNumbers: (yourTweetRecords) => {
       // tweet_id, user_name, user_screen_name, tweet_full_text, tweet_retweet?, tweet_url, tweet_media_exists?, tweet_public?, tweeted_at
       if (Object.keys(yourTweetRecords).length === 0) {
         return []
       }
 
       // A returned object contains the key 'results' as top level
-      return yourTweetRecords['results'].map(record => record[5])
+      return yourTweetRecords['results'].map((record) => record[5])
     },
   },
 }

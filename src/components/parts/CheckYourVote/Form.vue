@@ -40,7 +40,7 @@ export default {
   components: {
     YourVoteStatus,
   },
-  data: function() {
+  data: function () {
     return {
       valid: true,
       screenName: '',
@@ -48,7 +48,7 @@ export default {
       showLoadingAnime: false,
       isShown: false,
       // Strictry, ("'@' + screen_name" <= 16)
-      screenNameRules: [v => v.length <= 16 || 'IDが長すぎます'],
+      screenNameRules: [(v) => v.length <= 16 || 'IDが長すぎます'],
     }
   },
   methods: {
@@ -64,7 +64,7 @@ export default {
             env: process.env.VUE_APP_DEPLOY_ENVIRONMENT,
           },
         })
-        .then(response => (this.yourTweetRecords = response.data))
+        .then((response) => (this.yourTweetRecords = response.data))
         .then(() => (this.showLoadingAnime = false))
     },
   },

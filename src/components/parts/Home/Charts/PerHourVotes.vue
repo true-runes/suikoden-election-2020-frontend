@@ -5,7 +5,7 @@ export default {
   // mixins: [Bar]
   extends: Bar,
   name: 'per-hour-votes-chart',
-  mounted: function() {
+  mounted: function () {
     this.renderChart(this.data, this.options)
   },
   props: {
@@ -16,7 +16,7 @@ export default {
     },
   },
   methods: {
-    perThreeHoursVotes: function() {
+    perThreeHoursVotes: function () {
       const lengthOfPerHourVotesArray = this.perHourVotes.length
       const numberOfElementsForSummarize = 3
       const perThreeHoursVotes = []
@@ -33,7 +33,7 @@ export default {
         )
 
         let summerizedSlicedArray = 0
-        slicedArray.forEach(function(element) {
+        slicedArray.forEach(function (element) {
           summerizedSlicedArray += element
         })
 

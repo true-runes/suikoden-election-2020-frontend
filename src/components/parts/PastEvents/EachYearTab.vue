@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     // TODO: よい命名ではないから正規表現を使わざるを得なくなっている
-    yearNumberFromItemName: function(itemName) {
+    yearNumberFromItemName: function (itemName) {
       return `${itemName.replace(/year-/, '')}`
     },
   },
