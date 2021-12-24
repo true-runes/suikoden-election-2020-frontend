@@ -42,10 +42,10 @@ export default {
     }
   },
   // TODO: 順番に依存してしまっている
-  created: function() {
+  created: function () {
     this.rankingData = voteResult2020
 
-    this.rankingData.forEach(rankRecord => {
+    this.rankingData.forEach((rankRecord) => {
       rankRecord['percentageOfVote'] = this.calculatePercentage(
         // TODO: ハードコーディングをやめる（テンプレート部も同様）
         (rankRecord['numberOfVote'] / 5970) * 100,
@@ -53,7 +53,7 @@ export default {
     })
   },
   methods: {
-    calculatePercentage: function(number) {
+    calculatePercentage: function (number) {
       // 小数点第二位まで（ただし、 0 は消えるのでパディングすべき）
       return Math.floor(number * Math.pow(10, 2)) / Math.pow(10, 2)
     },

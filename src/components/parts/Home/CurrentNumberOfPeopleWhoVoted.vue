@@ -35,7 +35,7 @@ export default {
   components: {
     VoteStatusChart,
   },
-  data: function() {
+  data: function () {
     return {
       valid: true,
       screenName: '',
@@ -43,7 +43,7 @@ export default {
       showLoadingAnime: true,
       isShown: false,
       // Strictry, ("'@' + screen_name" <= 16)
-      screenNameRules: [v => v.length <= 16 || 'IDが長すぎます'],
+      screenNameRules: [(v) => v.length <= 16 || 'IDが長すぎます'],
       spinnerAnimeUrl: this.$store.state.spinnerAnimeUrl,
     }
   },

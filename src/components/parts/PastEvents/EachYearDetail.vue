@@ -54,7 +54,7 @@ export default {
     }
   },
   // TODO: 順番に依存してしまっている
-  created: function() {
+  created: function () {
     this.yearOfThisTab = this.yearNumberFromYearDescription(
       this.yearDescription,
     )
@@ -73,7 +73,7 @@ export default {
       this.rankingData = voteResult2016
     }
 
-    this.rankingData.forEach(rankRecord => {
+    this.rankingData.forEach((rankRecord) => {
       rankRecord['percentageOfVote'] = this.calculatePercentage(
         (rankRecord['numberOfVote'] /
           this.numberOfVoteByYear(this.yearOfThisTab)) *
@@ -82,15 +82,15 @@ export default {
     })
   },
   methods: {
-    yearNumberFromYearDescription: function(yearDescription) {
+    yearNumberFromYearDescription: function (yearDescription) {
       return `${yearDescription.replace(/year-/, '')}`
     },
-    calculatePercentage: function(number) {
+    calculatePercentage: function (number) {
       // 小数点第二位まで
       return Math.floor(number * Math.pow(10, 2)) / Math.pow(10, 2)
     },
     // TODO: リファクタリング
-    numberOfPeopleWhoVotedByYear: function(year) {
+    numberOfPeopleWhoVotedByYear: function (year) {
       if (year === '2019') {
         return 1907
       }
@@ -105,7 +105,7 @@ export default {
       }
     },
     // TODO: リファクタリング
-    numberOfVoteByYear: function(year) {
+    numberOfVoteByYear: function (year) {
       if (year === '2019') {
         return 5642
       }

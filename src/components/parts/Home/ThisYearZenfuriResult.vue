@@ -2,12 +2,8 @@
   <v-row>
     <v-col cols="12">
       <h1 class="mb-4">幻水総選挙 2020 全振り結果</h1>
-      <p>
-        ※「全振り」とは、持ち票の3票全部を同一キャラに投票することです
-      </p>
-      <p>
-        ※「列名」をタップするとその列でソートできます
-      </p>
+      <p>※「全振り」とは、持ち票の3票全部を同一キャラに投票することです</p>
+      <p>※「列名」をタップするとその列でソートできます</p>
       <h2>全振り投票人数</h2>
       <h3 class="mb-4">916 人（全投票人数の約46%）</h3>
       <h2>全振り投票数</h2>
@@ -47,11 +43,11 @@ export default {
     }
   },
   // TODO: 順番に依存してしまっている
-  created: function() {
+  created: function () {
     this.zenfuriData = zenfuri2020
   },
   methods: {
-    calculatePercentage: function(number) {
+    calculatePercentage: function (number) {
       // 小数点第二位まで（ただし、 0 は消えるのでパディングすべき）
       return Math.floor(number * Math.pow(10, 2)) / Math.pow(10, 2)
     },

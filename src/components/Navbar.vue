@@ -89,10 +89,7 @@
           </v-list-item>
         </a>
 
-        <a
-          href="https://election-2016.suikoden.info/"
-          target="_blank"
-        >
+        <a href="https://election-2016.suikoden.info/" target="_blank">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-open-in-new</v-icon>
@@ -116,7 +113,7 @@
 
 <script>
 export default {
-  data: function() {
+  data: function () {
     return {
       drawer: false,
       group: null,

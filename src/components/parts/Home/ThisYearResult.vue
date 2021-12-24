@@ -42,7 +42,7 @@ export default {
   },
   methods: {
     // TODO: リファクタリング
-    itemNameToJapaneseName: function(itemName) {
+    itemNameToJapaneseName: function (itemName) {
       if (itemName === 'vote-result') {
         return '幻水総選挙 2020 結果'
       }
