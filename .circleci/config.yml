@@ -24,7 +24,7 @@ jobs:
   build:
     executor:
       name: node/default
-      tag: '14.18.0'
+      tag: '16.13.1'
     steps:
       - checkout
       - restore_cache:
@@ -32,9 +32,11 @@ jobs:
             - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
             - yarn-packages-v1-{{ .Branch }}-
             - yarn-packages-v1-
-      - run: yarn install
       - run: node -v
       - run: yarn -v
+      - run: yarn install
+      - run: yarn lint
+      - run: yarn build
       - save_cache:
           paths:
             - node_modules
