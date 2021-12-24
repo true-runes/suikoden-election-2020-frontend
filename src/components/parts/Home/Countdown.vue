@@ -59,7 +59,7 @@ export default {
   components: {
     VueCountdown,
   },
-  data: function() {
+  data: function () {
     return {
       durationDatetime: this.setDurationDatetime(),
     }
@@ -75,9 +75,8 @@ export default {
 
       durationDatetime['votingStartAt'] = votingStartAt.diff(currentDatetime)
       durationDatetime['votingEndAt'] = votingEndAt.diff(currentDatetime)
-      durationDatetime['coutningStartAt'] = coutningStartAt.diff(
-        currentDatetime,
-      )
+      durationDatetime['coutningStartAt'] =
+        coutningStartAt.diff(currentDatetime)
 
       if (durationDatetime['votingStartAt'] > 0) {
         durationDatetime['currentEventStep'] = 'before_voting'

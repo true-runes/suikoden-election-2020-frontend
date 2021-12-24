@@ -32,7 +32,7 @@ export default {
   components: {
     Tweet,
   },
-  data: function() {
+  data: function () {
     return {
       spinnerAnimeUrl: this.$store.state.spinnerAnimeUrl,
     }

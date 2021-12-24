@@ -20,9 +20,7 @@
               <li>
                 投票期間は以下のとおりです
                 <ul>
-                  <li>
-                    2020/06/12（金）21:00 〜 2020/06/14（日）12:00
-                  </li>
+                  <li>2020/06/12（金）21:00 〜 2020/06/14（日）12:00</li>
                 </ul>
               </li>
               <li>
@@ -30,9 +28,7 @@
                   DM による投票はこのページでチェックすることはできません
                 </span>
                 <ul>
-                  <li>
-                    主催からお送りする投票受付確認の DM をお待ち下さい
-                  </li>
+                  <li>主催からお送りする投票受付確認の DM をお待ち下さい</li>
                 </ul>
               </li>
               <li>
@@ -64,7 +60,7 @@
 <script>
 export default {
   name: 'notice-message-for-no-result',
-  data: function() {
+  data: function () {
     return {
       constantScreenName: this.normalizeScreenName(this.screenName),
     }
@@ -77,7 +73,7 @@ export default {
     },
   },
   methods: {
-    normalizeScreenName: screenName => {
+    normalizeScreenName: (screenName) => {
       // screenName が不正な値だったら？（replaceメソッドを持たない、Strではなかったら？）
       const normalizedScreenName = screenName.replace(/@/g, '')
       return normalizedScreenName

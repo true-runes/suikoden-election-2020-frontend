@@ -30,7 +30,7 @@ export default {
     Navbar,
     Footer,
   },
-  data: function() {
+  data: function () {
     return {
       drawer: false,
       group: null,
