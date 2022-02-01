@@ -5,7 +5,7 @@
     "@chenfengyuan/vue-countdown": "1.1.5",
     "axios": "0.25.0",
     "chart.js": "3.7.0",
-    "core-js": "3.20.3",
+    "core-js": "3.21.0",
     "dayjs": "1.10.7",
     "highlight.js": "11.4.0",
     "vue": "2.6.14",
