@@ -8,12 +8,12 @@
     "core-js": "3.21.0",
     "dayjs": "1.10.7",
     "highlight.js": "11.4.0",
-    "vue": "2.6.14",
+    "vue": "3.2.29",
     "vue-chartjs": "3.5.1",
-    "vue-router": "3.5.3",
+    "vue-router": "4.0.12",
     "vue-tweet-embed": "2.4.0",
     "vuetify": "2.6.3",
-    "vuex": "3.6.2"
+    "vuex": "4.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.15",
