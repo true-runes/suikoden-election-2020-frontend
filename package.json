@@ -4,7 +4,7 @@
   "dependencies": {
     "@chenfengyuan/vue-countdown": "2.0.0",
     "axios": "0.25.0",
-    "chart.js": "3.7.0",
+    "chart.js": "3.7.1",
     "core-js": "3.21.0",
     "dayjs": "1.10.7",
     "highlight.js": "11.4.0",
