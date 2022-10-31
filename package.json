@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@chenfengyuan/vue-countdown": "2.0.0",
-    "axios": "1.1.2",
+    "axios": "1.1.3",
     "chart.js": "3.9.1",
     "core-js": "3.25.5",
     "dayjs": "1.11.5",
