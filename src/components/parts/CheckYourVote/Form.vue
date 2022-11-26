@@ -47,7 +47,7 @@ export default {
       yourTweetRecords: {},
       showLoadingAnime: false,
       isShown: false,
-      // Strictry, ("'@' + screen_name" <= 16)
+      // Strictly, ("'@' + screen_name" <= 16)
       screenNameRules: [(v) => v.length <= 16 || 'IDが長すぎます'],
     }
   },
