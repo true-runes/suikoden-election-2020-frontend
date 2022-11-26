@@ -7,4 +7,4 @@ if [ -n "$PORT" ]; then
 fi
 
 yarn build
-npx http-server --port $SERVE_PORT -a 0.0.0.0 --silent dist/
+npx http-server --port $SERVE_PORT -a 0.0.0.0 dist/
