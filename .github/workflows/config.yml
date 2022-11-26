@@ -1,23 +1,66 @@
-on: [push]
-name: Suikoden Election 2020 Frontend
+name: 幻水総選挙2020 フロントエンド
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+env:
+  # TODO: Git のタグを取得して、イメージのタグにする
+  DOCKER_IMAGE: asia-northeast1-docker.pkg.dev/${{ secrets.CLOUD_RUN_PROJECT }}/cloud-run-source-deploy/gensosenkyo-2020-frontend
+  GCP_REGION: ${{ secrets.CLOUD_RUN_REGION }}
+  GCP_AUTH_HOST: asia-northeast1-docker.pkg.dev
+  CLOUD_RUN_SERVICE_NAME: gensosenkyo-2020-frontend
+
 jobs:
-  suikoden_election_2020_github_actions:
-    name: Suikoden Election 2020 Frontend CI
+  vue_app_test:
+    name: Vue のビルドテスト
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [16.18.0]
     steps:
-    - name: コードをチェックアウトする
-      uses: actions/checkout@v2
-    - name: Node.js のセットアップをする
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'yarn'
-    - name: $ yarn install
-      run: yarn install
-    - name: $ yarn lint
-      run: yarn lint
-    - name: $ yarn build
-      run: yarn build
+      - name: コードをチェックアウトする
+        uses: actions/checkout@v3
+      - name: Node.js のセットアップをする
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'yarn'
+      - name: $ yarn install
+        run: yarn install
+      - name: $ yarn lint
+        run: yarn lint
+      - name: $ yarn build
+        run: yarn build
+
+  deploy_to_cloud_run:
+    needs: vue_app_test
+    if: ${{ github.ref_name == 'main' }}
+    name: Cloud Run に production デプロイする
+    runs-on: ubuntu-latest
+    steps:
+      - name: ソースコードをチェックアウトする
+        uses: actions/checkout@v3
+      - name: GCP の認証を行う
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT_CREDENTIALS }}
+      - name: GCP の CLI の認証を行う
+        run: |
+          gcloud auth configure-docker ${{ env.GCP_AUTH_HOST }}
+      - name: Docker イメージ をビルドする
+        run: |
+          docker build -t ${{ env.DOCKER_IMAGE }} .
+      - name: Docker イメージ をプッシュする
+        run: |
+          docker push ${{ env.DOCKER_IMAGE }}
+      - name: Deploy to Cloud Run
+        uses: google-github-actions/deploy-cloudrun@v0
+        with:
+          service: ${{ env.CLOUD_RUN_SERVICE_NAME }}
+          image: ${{ env.DOCKER_IMAGE }}
+          region: ${{ env.GCP_REGION }}
