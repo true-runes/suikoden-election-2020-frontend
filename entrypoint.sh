@@ -6,4 +6,5 @@ if [ -n "$PORT" ]; then
   SERVE_PORT=$PORT
 fi
 
-yarn serve --port $SERVE_PORT --host 0.0.0.0
+yarn build
+npx http-server --port $SERVE_PORT -a 0.0.0.0 --silent dist/
