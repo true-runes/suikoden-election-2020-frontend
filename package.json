@@ -29,7 +29,7 @@
     "prettier": "2.8.1",
     "sass": "1.49.9",
     "sass-loader": "10.2.1",
-    "stylelint": "14.15.0",
+    "stylelint": "14.16.1",
     "stylelint-config-standard": "29.0.0",
     "vue-cli-plugin-vuetify": "2.4.8",
     "vue-template-compiler": "2.6.14",
