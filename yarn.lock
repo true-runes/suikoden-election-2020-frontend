@@ -1134,10 +1134,10 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@chenfengyuan/vue-countdown@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@chenfengyuan/vue-countdown/-/vue-countdown-2.1.0.tgz#97d1c9ae755ef11fa28ce30af407b8c8177fc40c"
-  integrity sha512-Emk66FULb1Q31tz7sLRvQIBMW8k46EeQu2pv4DUppPUNSmpp+5bGLQLNLLfwohL3r6a4dzqB5PGSmu8P5nD4qQ==
+"@chenfengyuan/vue-countdown@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@chenfengyuan/vue-countdown/-/vue-countdown-2.1.1.tgz#0e19b59b46eecab54b3a569d6a2dba78f7b6996f"
+  integrity sha512-HARJ62AFyxrBH/nMzwuaHUd20waKLN07mjyo2+8YfVouALkFERNRabqt5i3lfp3OISHb2054lWgyaX9L60hdPw==
 
 "@csstools/selector-specificity@^2.0.2":
   version "2.0.2"
